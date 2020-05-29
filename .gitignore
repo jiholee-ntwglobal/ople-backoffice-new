@@ -681,6 +681,7 @@ ople_data/*.sql
 html/api_sdks/
 html/florex/
 html/mall5/adm/html_block/**
+html/mall5/adm/html_block/admin_main_block_member.html
 !html/mall5/adm/html_block/
 html/mall5/dbconfig.php
 html/mall5/lib/search.php
@@ -702,6 +703,7 @@ html/**/*.xls
 !html/robots.txt
 *.txt
 *.gz
+**/CHANGELOG.TXT
 **/*.zip
 
 # Symlink
