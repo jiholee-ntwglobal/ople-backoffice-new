@@ -9,7 +9,7 @@ if ($signature && $github_event == 'push') {
     if (strcmp($signature, $secrethash) == 0) {
         $input = "sh deploy.sh 2>&1";
         $output = "";
-        // exec($input, $output);
+        exec($input, $output);
         header("Content-type:application/json");
         $json = array(
             'github-event:' => $github_event,
