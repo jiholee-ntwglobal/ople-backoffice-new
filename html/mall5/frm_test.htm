@@ -1,0 +1,11 @@
+<form action="" name=frm>
+	<input type=hidden name=ip value = 'ok'/>
+	<input type="button" onclick='test_fnc()' />
+</form>
+
+<script type="text/javascript">
+function test_fnc(){
+	var f = document.frm;
+	alert(f.ip.value);
+}
+</script>

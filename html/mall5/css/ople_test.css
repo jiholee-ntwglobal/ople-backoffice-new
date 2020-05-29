@@ -1,0 +1,826 @@
+﻿
+body {padding:0;min-width:1100px;}
+ul,li {list-style:none;padding:0;margin:0;}
+fieldset {border:none;padding:0;margin:0;}
+* {padding:0;margin:0;}
+
+
+.wrap
+{
+    width:100%;
+	min-width:1100px;
+    margin:0 auto;
+    position: relative;
+}
+
+.wrap .headerArea{
+	min-width:1100px;
+}
+
+.wrap .contents {
+	/*position:relative;*/
+}
+
+/*관별공통*/
+.DepthCategory .inBox_depth_warp {position:absolute;margin-top:-30px;right:-80%;}
+.DepthCategory .inBox_depth_warp span {display:block;}
+.DepthCategory .inBox_depth_warp .pointer {background: url(http://115.68.20.84/mall6/depth_pointer_left.png) no-repeat 0 15px;width:8px;height:15px;float:left;margin:0;padding-top:15px;}
+.DepthCategory .inBox_depth_warp .inBox_depth {
+   border:solid 1px #4a4d5a;
+   margin:0 0 0 5px;
+   box-shadow: 3px 3px 3px 0px #707070;
+   background-color:#fff;
+   padding:8px 0;
+}
+.DepthCategory .inBox_depth em {display:block;font-style:normal;}
+.DepthCategory .inBox_depth em a:hover {color:#fff;}
+
+.DepthCategory dd {position:relative !important;z-index:7 !important;}
+
+/*health관*/
+.health {background:#f8f8f8 url(http://115.68.20.84/mall6/bg_contents_health.gif) repeat 0 0;}
+.health .headerArea {border-bottom:solid 2px #f05c22;}
+.health .contentsArea {background-color:#fff;}
+.health .cont_header h1 a {background:transparent url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 0;
+}
+
+.health .category 
+{
+    /*font-family: Dotum !important;*/
+    width:1130px;
+    margin-left:-15px;
+    height:50px;
+    padding-bottom:12px;
+    background:transparent url(http://115.68.20.84/mall6/health_banner/bg_category.png) no-repeat 0 0;
+}
+.health .DepthCategory 
+{
+   background-color:#fff;
+   border:solid 1px #4a4d5a;
+   margin:0px 0 0 10px;
+   box-shadow: 3px 3px 3px 0px #707070;
+   top:50px;
+}
+
+.health .DepthCategory dl {margin:9px 0 7px 0;padding:0 5px 5px 5px;}
+.health .DepthCategory dt {font-weight:bold;color:#ed5b21;}
+.health .DepthCategory dt a {color:#ed5b21;}
+.health .DepthCategory dd {padding:0;line-height:16px;}
+.health .DepthCategory a {color:#3c3c3d;height:16px;line-height:16px;display:block;padding:3px 15px;}
+.health .DepthCategory a:hover {color:#fff;text-decoration:none;background-color:#f67425;}
+.health .DepthCategory a:active {text-decoration:none;background-color:#f67425;}
+.health .DepthCategory a:visited {color:#3c3c3d;}
+
+.health .DepthCategory dd a.more {border-top:solid 1px #e4e5e9;background:#f6f6f6 url(http://115.68.20.84/mall6/health_banner/ico_more.png) no-repeat 85% 10px;margin:0 -5px -12px -5px;height:20px;line-height:20px;cursor:pointer;}
+
+.health .depth_full_box {width:1100px;left:0px !important;}
+.health .depth_full_box .pointer {background: url(http://115.68.20.84/mall6/depth_pointer_ts.png) no-repeat 150px 0;}
+.health .depth_full_box dl {float:left;}
+.health .depth_full_box dt {width:25%;float:left;}
+.health .depth_full_box dd {width:25%;float:left;}
+
+.health .DepthCategory dd a.more_close 
+{
+    display:block;
+    text-align:right;
+    padding-right:30px;
+    position:absolute;
+    width:1055px;
+    left: -551px;
+    bottom: -61px;
+    border-top: solid 1px #e4e5e9;
+    border-bottom: solid 1px #4a4d5a;
+    border-left: solid 1px #4a4d5a;
+    border-right: solid 1px #4a4d5a;
+    background:#f6f6f6 url(http://115.68.20.84/mall6/health_banner/ico_moreClose.png) no-repeat 1080px 8px;
+    height:20px;
+    line-height:20px;
+}
+.health .DepthCategory dd a:hover.more_close, .health .DepthCategory dd a:hover.more {color:#fff;text-decoration:none;background-color:#f67425;}
+.health .DepthCategory dd a:active.more_close, .health .DepthCategory dd a:active.more {text-decoration:none;background-color:#f67425;}
+.health .DepthCategory dd a:visited.more_close, .health .DepthCategory dd a:visited.more {color:#3c3c3d;}
+
+.health .depth01_box  {left:-10px;}
+.health .depth02_box  {left:34px;}
+.health .depth03_box  {left:125px;}
+.health .depth04_box  {left:272px;}
+.health .depth05_box  {left:343px;}
+.health .depth06_box  {left:469px;}
+.health .depth07_box  {left:543px;}
+.health .depth08_box  {left:740px;}
+.health .depth09_box  {}
+.health .depth10_box  {left:986px;}
+
+.health .pointer {background: url(http://115.68.20.84/mall6/depth_pointer_ts.png) no-repeat 50% 0;}
+
+.health .category  ul {min-height:50px;padding:18px 10px;}
+.health .category li a {height:16px;}
+.health .category li {padding:0 24px;background: url(http://115.68.20.84/mall6/health_banner/bg_line_orange.png) no-repeat 0 0;}
+.health .category li.depth01 a {width:37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 0;}
+.health .category li.depth02 a {width:37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -16px;}
+.health .category li.depth03 a {width:37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -32px;}
+.health .category li.depth04 a {width:89px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -48px;}
+.health .category li.depth05 a {width:51px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -64px;}
+.health .category li.depth06 a {width:37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -80px;}
+.health .category li.depth07 a {width:101px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -96px;}
+.health .category li.depth08 a {width:88px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -112px;}
+.health .category li.depth09 a {width:49px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -128px;}
+.health .category li.depth10 a {width:101px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -144px;}
+
+.health .category li.depth01 a:hover, .health .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px 0;}
+.health .category li.depth02 a:hover, .health .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -16px;}
+.health .category li.depth03 a:hover, .health .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -32px;}
+.health .category li.depth04 a:hover, .health .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -48px;}
+.health .category li.depth05 a:hover, .health .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -64px;}
+.health .category li.depth06 a:hover, .health .category li.depth06 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -80px;}
+.health .category li.depth07 a:hover, .health .category li.depth07 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -96px;}
+.health .category li.depth08 a:hover, .health .category li.depth08 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -112px;}
+.health .category li.depth09 a:hover, .health .category li.depth09 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -128px;}
+.health .category li.depth10 a:hover, .health .category li.depth10 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -144px;}
+
+
+.health .category_zoneA {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.health .category_zoneB {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.health .category_zoneC {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.health .category_zoneD {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.health .category_zoneA dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px 0;}
+.health .category_zoneB dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px -26px;}
+.health .category_zoneC dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px -52px;}
+.health .category_zoneD dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px -78px;}
+
+.health .MainSpotZone {width:1030px;margin-top:-10px;box-sizing:border-box;}
+.health .MainSpotImg {height:327px;}
+.health .member_name {color:#5f6167;}
+
+/*home관*/
+.home {background:#f0f0f0 url(http://115.68.20.84/mall6/bg_contents_home.gif) repeat-x 0 0;}
+.home .headerArea {border-bottom:solid 2px #5d39bc;}
+.home .contents_sub {background-color:#fff;padding-top:15px;}
+.home .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -50px;}
+
+
+.home .category 
+{
+    margin-left:-3px;
+    top:-10px;
+    width:1106px;
+    height:50px;
+    background: url(http://115.68.20.84/mall6/home_banner/bg_category.png) no-repeat 0 0;
+}
+.home .DepthCategory 
+{
+   width:218px;
+   background-color:#fff;
+   border:solid 1px #4a4d5a;
+   margin:0px 0 0 0;
+   padding:5px 0 ;
+   box-shadow: 3px 3px 3px 0px #707070;
+   top:48px;
+}
+
+/*.home .DepthCategory div {float:none;display:inline-block;}*/
+.home .DepthCategory dl {padding:8px 10px 7px 10px;display:block;}
+.home .DepthCategory dt {font-weight:normal;padding:5px 0;border-bottom:none;margin-bottom:0;color:#4824b4;}
+.home .DepthCategory dt a {color:#4824b4;}
+.home .DepthCategory dd {display:block;}
+.home .DepthCategory dd  span {display:block;}
+.home .DepthCategory a {color:#3c3c3d;height:16px;line-height:16px;display:block;padding:3px 10px;width:178px;}
+.home .DepthCategory a:hover {color:#fff;text-decoration:none;background-color:#5f3bb1;}
+.home .DepthCategory a:active {text-decoration:none;background-color:#5f3bb1;}
+.home .DepthCategory a:visited {color:#3c3c3d;}
+
+.home .depth01_box  {left:0px;}
+.home .depth02_box  {left:220px;}
+.home .depth03_box  {left:438px;}
+.home .depth04_box  {left:656px;}
+.home .depth05_box  {left:874px;}
+
+.home .category ul {min-height:38px;padding:2px 0 9px 0;}
+.home .category li a {height:38px;}
+.home .category li {padding:0 50px;background: url(http://115.68.20.84/mall6/home_banner/bg_line_category.png) no-repeat 0 0;}
+.home .category li.depth01 a {width:120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 0;}
+.home .category li.depth02 a {width:120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -38px;}
+.home .category li.depth03 a {width:120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -76px;}
+.home .category li.depth04 a {width:120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -114px;}
+.home .category li.depth05 a {width:120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -152px;}
+
+.home .category li.depth01 a:hover, .home .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px 0;}
+.home .category li.depth02 a:hover, .home .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -38px;}
+.home .category li.depth03 a:hover, .home .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -76px;}
+.home .category li.depth04 a:hover, .home .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -114px;}
+.home .category li.depth05 a:hover, .home .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -152px;}
+
+.home .category_zoneA {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.home .category_zoneB {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.home .category_zoneC {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.home .category_zoneD {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.home .category_zoneA dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px 0;}
+.home .category_zoneB dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px -26px;}
+.home .category_zoneC dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px -52px;}
+.home .category_zoneD dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px -78px;}
+
+.home .MainSpotZone {width:1094px;margin:0 0 10px -32px;box-sizing:border-box;}
+.home .MainSpotImg {height:304px;}
+.home .member_name {color:#5d39bc;}
+
+
+/*momnkids관*/
+.momnkids {background:#fff url(http://115.68.20.84/mall6/bg_contents_momnkids.gif) repeat 0 126px;}
+.momnkids .headerArea {border-bottom:solid 2px #e76e66;}
+.momnkids .contentsArea {background-color:#fff;}
+.momnkids .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -100px;}
+
+.momnkids .category 
+{
+    margin-left:-43px;
+    width:1186px;
+    height:57px;
+    padding-bottom:10px;
+    background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category.png) no-repeat 0 0;
+}
+.momnkids .DepthCategory 
+{
+   width:170px;
+   background-color:#fff;
+   border:solid 1px #e76e66;
+   padding:8px 0 7px 0;
+   box-shadow: 3px 3px 3px 0px #707070;
+   top:50px;
+}
+
+.momnkids .DepthCategory div {float:none;display:inline-block;}
+.momnkids .DepthCategory dl {padding:8px 10px 7px 10px;display:block;}
+.momnkids .DepthCategory dt {font-weight:normal;padding:5px 0;border-bottom:none;margin-bottom:0;color:#e76e66;}
+.momnkids .DepthCategory dt a {color:#e76e66;}
+.momnkids .DepthCategory dd {}
+
+.momnkids .DepthCategory a {color:#3c3c3d;height:16px;line-height:16px;display:block;padding:3px 10px;width:130px;}
+.momnkids .DepthCategory a:hover {color:#fff;text-decoration:none;background-color:#e76e66;}
+.momnkids .DepthCategory a:active {text-decoration:none;background-color:#e76e66;}
+.momnkids .DepthCategory a:visited {color:#3c3c3d;}
+
+.momnkids .depth01_box  {left:92px;}
+.momnkids .depth02_box  {left:364px;}
+.momnkids .depth03_box  {left:629px;}
+.momnkids .depth04_box  {left:908px;}
+
+.momnkids .category ul {height:16px;padding:19px 50px 25px 50px;}
+.momnkids .category li a {height:16px;}
+.momnkids .category li {padding:0 100px;background: url(http://115.68.20.84/mall6/momnkids_banner/bg_line_category.png) no-repeat 0 0;}
+.momnkids .category li.depth01 a {width:63px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 0;}
+.momnkids .category li.depth02 a {width:63px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 -16px;}
+.momnkids .category li.depth03 a {width:83px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 -32px;}
+.momnkids .category li.depth04 a {width:63px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 -48px;}
+
+.momnkids .category li.depth01 a:hover, .momnkids .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px 0;}
+.momnkids .category li.depth02 a:hover, .momnkids .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px -16px;}
+.momnkids .category li.depth03 a:hover, .momnkids .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px -32px;}
+.momnkids .category li.depth04 a:hover, .momnkids .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px -48px;}
+
+.momnkids .category_zoneA {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.momnkids .category_zoneB {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.momnkids .category_zoneC {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.momnkids .category_zoneD {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.momnkids .category_zoneA dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px 0;}
+.momnkids .category_zoneB dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px -26px;}
+.momnkids .category_zoneC dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px -52px;}
+.momnkids .category_zoneD dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px -78px;}
+
+.momnkids .MainSpotZone {width:1030px;margin-top:-10px;box-sizing:border-box;}
+.momnkids .MainSpotImg {height:327px;}
+
+.momnkids .member_name {color:#e76e66;}
+
+/*beauty관*/
+.beauty {background:#f0f0f0 url(http://115.68.20.84/mall6/bg_contents_beauty.gif) repeat-x 0 0;}
+.beauty .headerArea {border-bottom:solid 2px #569aa9;}
+.beauty .contents_sub {background-color:#fff;padding-top:15px;}
+.beauty .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -150px;}
+
+.beauty .category 
+{
+    height:45px;
+    padding-bottom:10px;
+    padding-top:8px;
+    /*background: url(http://115.68.20.84/mall6/beauty_banner/bg_category.png) no-repeat 0 0;*/
+}
+
+.beauty .DepthCategory 
+{
+   width:170px;
+   background-color:#fff;
+   border:solid 1px #dfdfdf;
+   padding:7px 0;
+   box-shadow: 3px 3px 3px 0px #707070;
+   top:52px;
+}
+
+.beauty .DepthCategory dl {padding:8px 10px 7px 10px;display:inline-block;}
+.beauty .DepthCategory dt {font-weight:normal;padding:5px 0;border-bottom:none;margin-bottom:0;color:#569aa9;}
+.beauty .DepthCategory dt a {color:#569aa9;}
+.beauty .DepthCategory dd {}
+.beauty .DepthCategory a {color:#3c3c3d;height:16px;line-height:16px;display:block;padding:3px 10px;width:130px;}
+.beauty .DepthCategory a:hover {color:#fff;text-decoration:none;background-color:#569aa9;}
+.beauty .DepthCategory a:active {text-decoration:none;background-color:#569aa9;}
+.beauty .DepthCategory a:visited {color:#3c3c3d;}
+
+.beauty .depth01_box  {left:26px;}
+.beauty .depth02_box  {left:244px;}
+.beauty .depth03_box  {left:455px;}
+.beauty .depth04_box  {left:672px;}
+.beauty .depth05_box  {left:895px;}
+
+.beauty .category ul {height:16px;padding:15px 0;}
+.beauty .category li a {height:16px;}
+.beauty .category li {padding:0 83px;background: url(http://115.68.20.84/mall6/beauty_banner/bg_line_category.png) no-repeat 0 0;}
+.beauty .category li.depth01 a {width:50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 0;}
+.beauty .category li.depth02 a {width:50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -16px;}
+.beauty .category li.depth03 a {width:50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -32px;}
+.beauty .category li.depth04 a {width:50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -48px;}
+.beauty .category li.depth05 a {width:64px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -64px;}
+
+.beauty .category li.depth01 a:hover, .beauty .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px 0;}
+.beauty .category li.depth02 a:hover, .beauty .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -16px;}
+.beauty .category li.depth03 a:hover, .beauty .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -32px;}
+.beauty .category li.depth04 a:hover, .beauty .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -48px;}
+.beauty .category li.depth05 a:hover, .beauty .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -64px;}
+
+.beauty .category_zoneA {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.beauty .category_zoneB {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.beauty .category_zoneC {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.beauty .category_zoneD {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.beauty .category_zoneA dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px 0;}
+.beauty .category_zoneB dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px -26px;}
+.beauty .category_zoneC dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px -52px;}
+.beauty .category_zoneD dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px -78px;}
+
+.beauty .MainSpotZone {width:1094px;margin:0 0 10px -32px;box-sizing:border-box;}
+.beauty .MainSpotImg {height:304px;}
+
+.momnkids .member_name {color:#569aa9;}
+
+/*food관*/
+.food {background:#f0f0f0 url(http://115.68.20.84/mall6/bg_contents_food.gif) repeat-x 0 0;}
+.food .headerArea {border-bottom:solid 2px #1b7e5a;}
+.food .contentsArea {background-color:#fff;}
+.food .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -200px;}
+
+.food .category 
+{
+    margin-left:-110px;
+    width:1228px;
+    height:83px;
+    padding-bottom:10px;
+    background: url(http://115.68.20.84/mall6/food_banner/bg_category.png) no-repeat 0 0;
+}
+.food .DepthCategory 
+{
+   width:140px;
+   background-color:#fff;
+   margin:0px 0 0 85px;
+   box-shadow: 3px 3px 3px 0px #707070;
+   top:67px;
+}
+
+.food .DepthCategory dl {padding:8px 10px 7px 10px;display:inline-block;}
+.food .DepthCategory dt {font-weight:normal;padding:5px 0;border-bottom:none;margin-bottom:0;color:#e76e66;}
+.food .DepthCategory dt a {color:#e76e66;}
+.food .DepthCategory dd {}
+.food .DepthCategory a {color:#3c3c3d;height:16px;line-height:16px;display:block;padding:3px 5px;width:110px;}
+.food .DepthCategory a:hover {color:#fff;text-decoration:none;background-color:#1b7e5a;}
+.food .DepthCategory a:active {text-decoration:none;background-color:#1b7e5a;}
+.food .DepthCategory a:visited {color:#3c3c3d;}
+
+.food .depth01_box  {left:40px;}
+.food .depth02_box  {left:195px;}
+.food .depth03_box  {left:336px;}
+.food .depth04_box  {left:480px;}
+.food .depth05_box  {left:645px;}
+.food .depth06_box  {display:none;}
+.food .depth07_box  {left:976px;}
+
+.food .category ul {height:16px;padding:35px 14px 25px 110px;}
+.food .category li a {height:16px;}
+.food .category li {padding:0 47px;background: url(http://115.68.20.84/mall6/food_banner/bg_line_category.png) no-repeat 0 0;}
+.food .category li.depth01 a {width:72px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 0;}
+.food .category li.depth02 a {width:47px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -16px;}
+.food .category li.depth03 a {width:47px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -32px;}
+.food .category li.depth04 a {width:53px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -48px;}
+.food .category li.depth05 a {width:94px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -64px;}
+.food .category li.depth06 a {width:59px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -80px;}
+.food .category li.depth07 a {width:65px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -96px;}
+
+.food .category li.depth01 a:hover, .food .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px 0;}
+.food .category li.depth02 a:hover, .food .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -16px;}
+.food .category li.depth03 a:hover, .food .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -32px;}
+.food .category li.depth04 a:hover, .food .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -48px;}
+.food .category li.depth05 a:hover, .food .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -64px;}
+.food .category li.depth06 a:hover, .food .category li.depth06 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -80px;}
+.food .category li.depth07 a:hover, .food .category li.depth07 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -96px;}
+
+.food .MainSpotZone {width:1030px;margin-top:-20px;box-sizing:border-box;}
+.food .MainSpotImg {height:327px;}
+
+.food .member_name {color:#1b7e5a;}
+
+/*fat관*/
+.fat {background:#f0f0f0 url(http://115.68.20.84/mall6/bg_contents_home.gif) repeat-x 0 0;}
+.fat .headerArea {border-bottom:solid 2px #d5b712;}
+.fat .contentsArea {}
+.fat .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -250px;}
+
+
+/*종합*/
+.member_name {font-size:15px;}
+
+/**HeaderArea**/
+.headerArea
+{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:-137px;    
+    background:#f0f0f0 url(http://115.68.20.84/mall6/bg_gnb.gif) repeat-x 0 0;
+}
+
+/*GNBAREA*/
+.gnbArea
+{
+    width:1100px;
+    margin:0 auto;
+    height:70px;
+}
+.gnbArea li {float:left;height:70px;line-height:70px;padding:0 7px;background: url(http://115.68.20.84/mall6/bg_line.gif) no-repeat 0 51%;}
+.gnbArea li.first {background:none;}
+.gnbArea li.basket {background: url(http://115.68.20.84/mall6/ico_basket.png) no-repeat 0 22px;padding-left:25px;}
+.gnbArea li.basket a strong
+{
+   display:inline-block;
+   width:26px;
+   text-align:center;
+   color:#fff;
+   font-size:11px;
+   line-height:15px;
+   background: url(http://115.68.20.84/mall6/bg_basket_txt.png) no-repeat 0 0;
+}
+.gnbArea li a {color:#666;}
+.ico_down {padding-right:15px;background: url(http://115.68.20.84/mall6/ico_down_point.png) no-repeat 100% 5px;}
+.ico_customer {padding: 0px 0 10px 32px;background: url(http://115.68.20.84/mall6/ico_customerCenter.png) no-repeat 0 0;}
+.gnbArea .gnb_left {float:left;}
+.gnbArea .gnb_right {float:right;}
+.gnbArea .button_ad {vertical-align: sub;}
+.gnbArea .button_ad img {vertical-align:sub;}
+.point_box {
+    display:block;
+    position:absolute;
+    top:47px;
+    margin-left:-10px;
+    padding-right:10px;
+    width:133px;
+    height:21px;
+    line-height:21px !important;
+    text-align:right;
+    font-weight:bold;
+    font-size:11px;
+    color:#ffe400;
+    background: url(http://115.68.20.84/main/bg_point_box.png) no-repeat 0 0;
+}
+
+.TotalSearchArea {
+    position:absolute;
+    margin:20px 0 0 330px;
+   /* margin:20px 0 0 0 \0/IE8;IE8적용*/
+    width:520px;
+    height:31px;
+}
+.OpleBI {
+    text-indent:-5000px;
+    width:137px;float:left;
+}
+.OpleBI a {display:block;width:100%;height:31px;background: url(http://115.68.20.84/mall6/bg_oplebi.png) no-repeat 0 0;}
+.TotalSearchArea fieldset
+{
+    height:31px;
+    float:left;
+    background: url(http://115.68.20.84/mall6/bg_totalSearch.png) no-repeat 0 0;
+    margin-left:10px;
+}
+.TotalSearchArea input 
+{
+    border: none;
+    background-color:#fff;
+    height: 27px;
+    line-height: 27px;
+    width: 255px;
+    padding: 0 5px;
+    margin:1px 0 0 1px;    
+}
+.TotalSearchArea .button input
+{
+    vertical-align: top;
+    width: 50px;
+    height: 31px;
+    line-height:31px !important;
+    padding: 0;
+    margin:0 0 0 0 !important;
+}
+.TotalSearchArea select
+{
+    display: inline-block;
+    margin: 0 0 0 2px;
+    padding: 5px 2px;
+    width: 75px;
+    height: auto;
+    font-size: 11px;
+    color: #666666;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    box-shadow: none;
+}
+
+/*TabArea*/
+.TabArea 
+{
+    width:1100px;
+    margin:0 auto;
+    height:65px;
+    position:relative;
+    left:-40px;
+}
+.TabArea ul {text-align:center;padding-top:8px;}
+.TabArea li
+{
+    display:inline;
+    text-indent:-5000px;
+    margin:0;
+    padding:0;
+}
+.TabArea li a
+{
+    display:inline-block;
+    width:164px;
+    height:59px;
+    line-height:59px;
+}
+.TabArea li.tab_health a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat 0 0;}
+.TabArea li.tab_home a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -164px 0;}
+.TabArea li.tab_momnbaby a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -328px 0;}
+.TabArea li.tab_bueaty a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -492px 0;}
+.TabArea li.tab_food a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -656px 0;}
+.TabArea li.tab_fat a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px 0;}
+
+.TabArea li.tab_health a:hover, .TabArea li.tab_health a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat 0 -59px;}
+.TabArea li.tab_home a:hover, .TabArea li.tab_home a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -164px -59px;}
+.TabArea li.tab_momnbaby a:hover, .TabArea li.tab_momnbaby a.active  {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -328px -59px;}
+.TabArea li.tab_bueaty a:hover, .TabArea li.tab_bueaty a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -492px -59px;}
+.TabArea li.tab_food a:hover, .TabArea li.tab_food a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -656px -59px;}
+.TabArea li.tab_fat a:hover, .TabArea li.tab_fat a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px -59px;}
+
+.TabArea .btn_prepay { text-indent:-5000px;width:120px;padding:0 0 0 20px;margin-top:-33px;right:0;position:absolute;}
+.TabArea .btn_prepay a
+{
+    width:119px;
+    height:31px;
+    display:block;
+    line-height:31px;
+    background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px -26px;
+}
+.TabArea .btn_prepay a:hover, .TabArea .btn_prepay a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px -87px;}
+
+/***ContentsArea***/
+.contentsArea
+{
+    width:1100px;
+    margin:137px auto 0 auto;
+}
+
+/*content_headerArea*/
+.cont_header {/*.margin-top:110px;for IE 7*/}
+.cont_header h1 {text-indent:-5000px;float:left;padding:25px 0 25px 52px;}
+.cont_header h1 a 
+{
+    display:block;
+    width:305px;
+    height:50px;    
+}
+
+/*Search*/
+.searchArea {position:relative;float:left;margin:38px 25px 0 25px;width:410px;height:34px;padding:1px;background: url(http://115.68.20.84/mall6/bg_searchbox.gif) no-repeat 0 0;}
+.searchArea input {border:none;background-color:#f7f7fa;height:31px;line-height:31px;width:363px;padding:0 5px;.width:353px;/*For IE 7*/}
+.searchArea .button {margin-top:-1px;display:block;width:32px;height:32px;position:absolute;right:3px;top:2px;}
+.searchArea .button input {vertical-align:middle;width:32px;height:32px;padding:0;}
+
+.top_banner {float:right;height: 41px;margin: 32px 17px 0 0;}
+.top_banner p {float:left;padding:0 10px 0 0;text-indent:-5000px;}
+.top_banner p a
+{
+    display:block;
+    height:41px;
+}
+.top_banner p.btn_best a {width:120px;background: url(http://115.68.20.84/mall6/btn_top_banner.gif) no-repeat 0 0;}
+.top_banner p.btn_user a {width:120px;background: url(http://115.68.20.84/mall6/btn_top_banner.gif) no-repeat 0 -41px;}
+.top_banner p.btn_requst a {width:70px;background: url(http://115.68.20.84/mall6/btn_top_banner.gif) no-repeat 0 -28px;}
+
+/***MainArea*****/
+
+/*category*/
+.category {position:relative;clear:both;}
+.category li {float:left;text-indent:-5000px;}
+.category li.first {background:none;}
+.category li a {display:block;}
+
+.DepthCategory 
+{
+   position:absolute;
+   z-index:2;
+   display:none;
+}
+.DepthCategory .pointer {text-indent:-5000px;height:6px;margin-top:-6px;}
+
+
+/*Contents*/
+.contents {padding:0 35px 30px 35px;min-height:800px;}
+
+.content_sub {clear:both;}
+
+
+
+/*SpotZone*/
+.MainSpotZone {margin-top:-10px;box-sizing:border-box;}
+.MainSpotZone p {margin-bottom:-3px;}
+.MainSpotZone ul {width:100%;height:42px;border-top:solid 1px #9e9e9e;border-bottom:solid 1px #9e9e9e;border-right:solid 1px #9e9e9e;}
+.MainSpotZone li 
+{
+    float:left;
+    border-left:solid 1px #9e9e9e;
+    height:42px;
+    line-height:42px;
+    text-align:center;
+    box-sizing:border-box;
+    background-color:#fff;
+}
+.MainSpotZone li a {display:block;width:100%;height:100%;color:#585858;}
+.MainSpotZone li.active a {background-color:#9e9e9e;color:#fff;text-decoration:none;font-weight:bold;}
+
+.MainSpotImgTitle{display:none;}
+.MainSpotImg {overflow:hidden;}
+.MainSpotImg_mask {overflow:hidden;position:relative;z-index:0;}
+.MainSpotImg_mask > div{float:left;}
+
+
+/*featuredCategory*/
+.featured_category {clear:both;padding-top:15px;}
+.featured_category h2 {height:39px;line-height:39px;text-align:center;background:url(http://115.68.20.84/mall6/bg_title_line2.gif) repeat-x 0 17px;padding:0 0 10px 0;}
+
+.home .featured_category {margin:0 -35px;}
+.beauty .featured_category {margin:0 -35px;}
+.Area_wrap {float:left;width:1030px;padding:20px 35px;background-color:#fff;}
+
+.featured_category dl
+{
+    width:226px;
+    height:230px;
+    float:left;
+    padding:15px 15px 0 15px;
+    border-right:solid 1px #eaeaea;
+}
+.featured_category dt {text-indent:-5000px;height:26px;margin-bottom:35px;}
+.featured_category dd {width:130px;height:27px;line-height:27px;border-bottom:solid 1px #eaeaea;padding-left:8px;background: url(http://115.68.20.84/mall6/ico_arrow_orange.png) no-repeat left center;}
+.featured_category dd  a {color:#515151;letter-spacing:-0.08em;}
+
+.featured_category .category_zoneD {border:none;}
+
+.recommend_box {float:left;position:relative;height:177px;margin:30px 0;width:1030px;}
+.home .recommend_box {margin:30px -35px;width:1100px !important;}
+.beauty .recommend_box {margin:30px -35px;width:1100px !important;}
+.recommend_box span {display:block;float:left;}
+.ico_discount 
+{
+    position:absolute;
+    left:150px;
+    top:-21px;
+    width:83px;
+    height:56px;
+    text-indent:-5000px;
+    background: url(http://115.68.20.84/mall6/ico_priceSpecial.png) no-repeat 0 0;
+}
+
+.recommend_box2 {float:left;position:relative;height:191px;margin:30px 0;}
+.recommend_box2 span {display:block;float:left;}
+.ico_plane 
+{
+    position:absolute;
+    left:506px;
+    top:1px;
+    width:68px;
+    height:189px;
+    text-indent:-5000px;
+    background: url(http://115.68.20.84/mall6/ico_plane.png) no-repeat 0 0;
+}
+
+/*베스트상품*/
+.best_zone {clear:both;}
+.home .best_zone {margin:0 -35px;}
+.beauty .best_zone {margin:0 -35px;}
+.best_zone h2 {height:39px;line-height:39px;background:url(http://115.68.20.84/mall6/bg_title_line3.gif) repeat-x 0 23px;padding:10px 0 10px 20px;text-align:center;}
+.beauty .best_zone h2 {padding:0 0 10px 20px;}
+
+.planning {float:left;}
+.home .planning {padding:10px 20px;background-color:#fff;}
+.beauty .planning {padding:10px 20px;background-color:#fff;}
+
+.best_list {float:right;width:783px;}
+.home .best_list {padding:15px;background-color:#fff;}
+.beauty .best_list {padding:15px;background-color:#fff;}
+.best_list li {float:left;border-left:solid 1px #eee;padding:5px 0;}
+.best_list li.first {border-left:none;}
+
+/*Specail*/
+.SpecialZone {clear:both;height:230px;padding-top:20px;}
+.home .SpecialZone {margin:0 -35px;}
+.beauty .SpecialZone {margin:0 -35px;}
+
+.weekleyZone {float:left;width:280px;}
+.weekleyZone h2 {height:39px;line-height:39px;background:url(http://115.68.20.84/mall6/bg_title_line3.gif) repeat-x 0 13px;padding:0 0 10px 20px;}
+
+.home .weekleyZone {width:315px;}
+.home .weekleyZone h2 {padding:0 0 10px 45px;}
+.home .weekleyZone p {padding:15px;background-color:#fff;}
+
+.beauty .weekleyZone {width:315px;}
+.beauty .weekleyZone h2 {padding:0 0 10px 45px;}
+.beauty .weekleyZone p {padding:15px;background-color:#fff;}
+
+.brandZone {float:right;width:750px;}
+.brandZone h2 {height:39px;line-height:39px;background:url(http://115.68.20.84/mall6/bg_title_line3.gif) repeat-x 0 13px;padding-bottom:10px;text-align:center;}
+.brandZone ul {height:136px;padding-left:52px;}
+.brandZone li {float:left;width:86px;height:68px;border:solid 1px #eee;box-sizing:content-box;margin:0 0 -1px -1px;}
+
+.home .brandZone {width:785px;}
+.home .brandZone ul {padding:24px 35px 24px 52px;background-color:#fff;}
+
+.beauty .brandZone {width:785px;}
+.beauty .brandZone ul {padding:24px 35px 24px 52px;background-color:#fff;}
+
+
+/*신규브랜드*/
+.newBrand_info {height:150px;margin-top:10px;}
+.newBrand_info span {display:inline-block;width:337px;padding-left:5px;}
+.newBrand_info span.first {padding-left:0;}
+
+/***FooterArea***/
+.footerArea {clear:both;width:1100px;margin:20px auto 0 auto;padding-bottom:50px;}
+
+.Footer_info {background-color:#f05c22;}
+.Footer_info .customerCenter {float:left;width:270px;height:185px;padding:15px 0;text-align:center;background-color:#fff;}
+.Footer_info .banner {float:left;width:450px;height:190px;background-color:#fff;margin-left:18px;text-align:center;padding:25px 0 0 0;}
+.Footer_info .banner span {padding:0 9px;}
+.Footer_info .ople_infobox {float:right;width:315px;height:190px;background-color:#fff;padding:12px 15px;}
+.goodChoice {padding-bottom:25px;}
+.goodChoice span {padding:0 8px;}
+.ople_sns {background: url(http://115.68.20.84/mall6/ico_sns.png) no-repeat 10px 0px;height:29px;line-height:29px;letter-spacing:-1px;padding:0 20px;}
+.ople_sns span.facebook a {padding-left:25px;color:#3b579d;}
+.ople_sns span.blog a {padding-left:90px;color:#09b900;}
+
+/*copyright*/
+.copyright {clear:both;text-align:center;}
+.copyright p {line-height:20px;color:#a2a3aa;font-family:Tahoma;clear:left;}
+.copyright .BI {padding:25px 0 20px 0;}
+.copyright .footer_gnb {width:340px;text-align:center;height:13px;margin:0 auto 30px auto;}
+.copyright .footer_gnb li {float:left;height:13px;line-height:13px;background: url(http://115.68.20.84/mall6/bg_line_footer.gif) no-repeat 0 50%;padding:0 10px;}
+.copyright .footer_gnb li.first {background:none;}
+.copyright .footer_gnb li a {font-weight:bold;color:#706e7c;}
+
+.hide_cate{
+	display:none;
+}
+
+/*추가분_Footer*/
+.ADD_footerArea {width:1100px;margin:20px auto 0 auto;background-color:#ececec;padding:15px;}
+.ADD_footerArea form {width:290px;float:left;padding-top:10px;}
+.ADD_footer_info1 {padding-left:315px; color:#656772;padding-bottom:10px;}
+.ADD_footer_info2 {padding-left:315px;color:#a2a3aa;}
+.ADD_footer_info2 strong {display:block;font-weight:bold;color:#706e8f;}
+
+/*floating_banner*/
+.Floating_bannerArea {
+    position: relative;
+    width: 1100px;
+}
+.flating_banner1{
+    position: absolute;
+    right: -127px;
+    margin-top:348px;
+}
+
+/*전체이벤트*/
+.eventArea{}
+.event_title {position:absolute;width:100%;left:0;margin:0;background: url(http://115.68.20.84/event/renewal/bg_renewal_titlebox.jpg) repeat-x 50% 0;}
+.event_title span {display:block;width:1560px;margin:0 auto;}
+.event_contents {padding-top:475px;padding-left:40px;position:relative;}
+.event_contents p.event_object {width:401px;height:343px;position:absolute;left:-161px;top:247px;}
+.event_tab {padding-bottom:30px;}
+
+/*TopbanneerArea*/
+.TopBannerArea {height:74px;background:url(http://115.68.20.84/event/bg_heaerTop.gif) repeat-x 0 0;width:100%;}
+.BannerObject {width:1100px;margin:0 auto;}

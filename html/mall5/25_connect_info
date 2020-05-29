@@ -1,0 +1,2 @@
+./adm/shop_admin/item_etc_migration.php:        //$this->ntics_db = new PDO ("dblib:host=100.39.49.25:1433;dbname=NTICS","sa","Tlstkddnr80");
+./lib/db_define.php:    'host'=>'100.39.49.25',

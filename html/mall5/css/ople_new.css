@@ -1,0 +1,1260 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+body {padding: 0;min-width: 1100px;}
+ul, li {list-style: none;padding: 0;margin: 0;}
+fieldset {border: none;padding: 0;margin: 0;}
+* {padding: 0;margin: 0;}
+
+.wrap {width: 100%;min-width: 1100px;margin: 0 auto;position: relative;}
+.wrap .headerArea {min-width: 1100px;display:none;}
+.wrap .contents {/*position:relative;*/}
+
+/*관별공통*/
+.DepthCategory .inBox_depth_warp {position: absolute;margin-top: -30px;right: -80%;
+}
+.DepthCategory .inBox_depth_warp span {
+display: block;}
+.DepthCategory .inBox_depth_warp .pointer {
+background: url(http://115.68.20.84/mall6/depth_pointer_left.png) no-repeat 0 9px;
+width: 8px;
+height: 15px;
+float: left;
+margin: 0;
+padding-top: 15px;}
+.DepthCategory .inBox_depth_warp .inBox_depth {
+border: solid 1px #4a4d5a;
+margin: 0 0 0 5px;
+box-shadow: 3px 3px 3px 0px #707070;
+background-color: #fff;
+padding: 8px 0;}
+
+.DepthCategory .inBox_depth em {display: block;font-style: normal;
+}
+.DepthCategory .inBox_depth em a:hover {
+color: #fff;}
+
+.DepthCategory dd {position: relative !important;z-index: 7 !important;
+}
+
+/*메인*/
+.main {background:#f8f8f8 url(http://115.68.20.84/mall6/bg_contents_main.gif) repeat 0 0;}
+.main .headerArea {border-bottom:solid 3px #33498f;display:none;}
+.main .contents {margin:0 -30px 0 -35px;}
+.main .contents_sub {background-color: #fff;padding-top: 15px;margin:0 !important;}
+.main .cont_header {height:90px;display:none;}
+.main .cont_header h1 {display:none;}
+
+.main .button_category_view {width: 183px;text-indent: -5000px;margin-top: 30px;}
+.main .button_category_view a {display: block;height: 47px;background: transparent url(http://115.68.20.84/mall6/main/btn_allcategory.png) no-repeat 0 0;}
+.main .button_category_view a:hover, .main .button_category_view a.active  {background: transparent url(http://115.68.20.84/mall6/main/btn_allcategory.png) no-repeat 0 -47px;}
+
+.main .category {float: left;clear: none;}
+.main .category .all_category_wrap {
+	position:absolute;
+	border:solid 1px #2a418a;
+	border-radius:3px;
+	box-sizing:border-box;
+	margin: -8px 0 0 1px;
+	padding: 13px 0 20px 0;
+	z-index: 2;
+	background:#fff url(http://115.68.20.84/mall6/main/bg_all_category_line.gif) repeat-y 178px 0;
+}
+.main .category li {text-indent:0;float: none;padding: 2px 0;}
+.main .category li a {font-size:13px;font-weight:bold;width:117px;height:38px;line-height:35px;padding-left: 62px;position: relative;z-index: 3;}
+.main .category li.all_health a {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat 0 0;letter-spacing:-0.5px;}
+.main .category li.all_health a:hover, .main .category li.all_health a.active {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat -179px 0;color:#f05c22;text-decoration:none;}
+.main .category li.all_home a {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat 0 -40px;}
+.main .category li.all_home a:hover, .main .category li.all_home a.active {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat -179px -40px;color:#5d39bc;text-decoration:none;}
+.main .category li.all_mamnkiz a {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat 0 -80px;}
+.main .category li.all_mamnkiz a:hover, .main .category li.all_mamnkiz a.active {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat -179px -80px;color:#e76e66;text-decoration:none;}
+.main .category li.all_beauty a {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat 0 -120px;}
+.main .category li.all_beauty a:hover, .main .category li.all_beauty a.active {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat -179px -120px;color:#569aa9;text-decoration:none;}
+.main .category li.all_food a {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat 0 -160px;}
+.main .category li.all_food a:hover, .main .category li.all_food a.active {background: url(http://115.68.20.84/mall6/main/bg_all_category.png) no-repeat -179px -160px;color:#1b7e5a;text-decoration:none;}
+
+.main .category li.all_health {}
+.main .category li.all_health ul {top: -39px;width: 280px;}
+.main .category li.all_health ul li {width: 130px;float: left;margin-left:5px;}
+.main .category li.all_health ul li a:hover {background-color:#f05c22;color:#fff;}
+
+.main .category li.all_home {}
+.main .category li.all_home ul {top: -80px;width:130px;}
+.main .category li.all_home ul li a:hover {background-color:#5d39bc;color:#fff;}
+
+.main .category li.all_mamnkiz {}
+.main .category li.all_mamnkiz ul {top: -120px;width:130px;}
+.main .category li.all_mamnkiz ul li a:hover {background-color:#e76e66;color:#fff;}
+
+.main .category li.all_beauty {}
+.main .category li.all_beauty ul {top: -167px;width:130px;}
+.main .category li.all_beauty ul li a:hover {background-color:#569aa9;color:#fff;}
+
+.main .category li.all_food {}
+.main .category li.all_food ul {top: -210px;width: 280px;}
+.main .category li.all_food ul li {width: 130px;float: left;margin-left:5px;}
+.main .category li.all_food ul li a:hover {background-color:#1b7e5a;color:#fff;}
+
+.main .category li ul {	
+	min-height: 170px;
+	margin-bottom: -170px;
+	margin-left: 180px;
+	position: relative;
+	padding: 0 10px;
+}
+.main .category li ul li a {background-image:none !important;width:inherit;height:inherit;font-size:12px;line-height:30px;font-weight:normal;padding:0 0 0 10px;}
+
+
+
+/*메인스팟영역_롤링배너 및 핫딜존 */
+.main .mainSpotArea {}
+.Main_bannerArea {width:1100px;height:420px;}
+.Main_bannerArea .planning_banner {position:relative;float:left;height:420px;}
+.Main_bannerArea .event_banner {height:420px;width: 385px;float: right;}
+
+.listing_button {position:absolute;bottom:40px;left:65px;z-index:3;}
+.listing_button li {width:16px;text-indent:-5000px;float:left;padding:0 2px 0 3px;}
+.listing_button li a {display:block;height:16px;background: url(http://115.68.20.84/mall6/main/listing_button.png) no-repeat -22px 0;}
+.listing_button li a:hover {background: url(http://115.68.20.84/mall6/main/listing_button.png) no-repeat 0 0;}
+.listing_button li.Select a {background: url(http://115.68.20.84/mall6/main/listing_button.png) no-repeat 0 0;}
+
+.hotdealzoneArea {width:1100px;background: url(http://115.68.20.84/mall6/main/bg_hotdealzone_new.jpg) no-repeat 0 0;margin-bottom:10px;clear:both;}
+.hotdealzoneArea ul {height:520px;}
+.hotdealzoneArea li {float:left;position:relative;width:210px;height:260px;}
+.hotdealzoneArea li.first {margin-left: 260px;}
+.hotdel_end_mask {position:absolute;width:100%;height:260px;background:transparent url(http://115.68.20.84/mall6/main/bg_ico_soldout.png) no-repeat 50%;}
+.hotdealzoneArea .banner {height:260px;}
+.hotdealzoneArea .discount_rate_box {position:absolute;width:56px;height:56px;background: url(http://115.68.20.84/mall6/bg_discountbox.png) no-repeat 0 0;top:20px;right:20px;}
+.hotdealzoneArea .discount_rate_box strong {font-family: 'Slabo 27px', serif;font-size:22px;color:#fff;font-weight:normal;display:inline-block;padding: 6px 5px 0 8px;}
+
+.hotdealzoneArea .hotdeal_price {position:absolute;width:160px;bottom:20px;padding-left:50px;}
+.hotdeal_price .street_price {display:block;font-size:12px;color:#aaa;height:20px;background: url(http://115.68.20.84/mall6/main/ico_discount.png) no-repeat 0 8px;margin-bottom: -5px;}
+.hotdeal_price .street_price  em {font-size:11px;color:#aaa;font-style:normal;}
+.hotdeal_price .discount_price {display:block;font-size:18px;color:#ec0808;}
+.hotdeal_price .discount_price em {font-size:11px;color:#aaa;font-style:normal;}
+
+/*메인스팟배너*/
+.SpotBanner {margin-bottom:10px;}
+
+/*메인이벤트영역*/
+.eventSpotArea {position:absolute;margin:10px auto;width:100%;left:0;height:130px;text-align:center;}
+
+/**메인추천상춤*/
+.recommend_productArea {margin-bottom:10px;height:255px;}
+.recommend_productArea ul {height:255px;}
+.recommend_productArea li {
+	position:relative;
+	float:left;
+	width:265px;
+	height:253px;
+	background-color:#fff;	
+	border-radius: 10px;
+	margin-left:11px;
+	margin-bottom:10px; 
+	box-sizing:border-box; 
+	box-shadow: 0 2px 0 0 #c6c6c6;
+}
+.recommend_productArea li.first {margin-left:0;}
+.title_point {
+	display:block;
+	position:absolute;
+	top:20px;
+	left:20px;
+	z-index:5;
+	font-size:13px;
+	color:#bababa;
+	height:18px;
+	line-height:15px;
+	padding-left:27px;	
+}
+.blue {background: url(http://115.68.20.84/mall6/main/bg_point_star.png) no-repeat 0 0;}
+.red {background: url(http://115.68.20.84/mall6/main/bg_point_star.png) no-repeat 0 -17px;}
+.recommend_productArea .titles {
+	display:block;
+	position:absolute;
+	top:70px;
+	left:20px;
+	z-index:3;
+	font-size:16px;
+	letter-spacing:-1.2px;
+	color:#000;
+}
+.recommend_productArea .titles span {display:block;width: 105px; word-break: break-word;}
+.titles_item {width:130px;}
+.recommend_productArea .prices {display:block;position:absolute;bottom:40px;left:20px;font-size:20px;color:#ec0808;font-weight:normal;letter-spacing:normal;z-index:4;}
+.recommend_productArea .prices em {font-size: 11px;font-style: normal;padding-left: 5px;}
+.recommend_productArea .titles_images {display:block;position:absolute;top:45px;right:0;z-index:1;}
+
+
+/**베스트후기 및 이벤트*/
+.planningArea {height:255px;}
+.planningArea .planning_eventA {float:left;}
+.planningArea .planning_eventB {float:right;}
+.planningArea .planning_eventB img {display:block !important;}
+
+.planningArea  .User_Review {
+	float:left;
+	position:relative;
+	width:819px;
+	height:253px;
+	background-color:#fff;	
+	border-radius: 10px;
+	margin-left:11px; 
+	box-sizing:border-box; 
+	box-shadow: 0 2px 0 0 #c6c6c6;
+}
+.User_Review ul {}
+.User_Review li {position:relative;padding:0 30px;}
+.User_Review li span {display:block;width:490px;}
+.User_Review .review_cont {position:absolute;top:60px;z-index:3;color:#6e6b6b;letter-spacing:-0.8px;}
+.User_Review .titles {position:absolute;top:150px;z-index:2;color:#000;font-size:14px;font-weight:bold;letter-spacing:-1px;}
+.User_Review .titles a {text-decoration:none;}
+.User_Review .titles strong {display:block;font-weight:normal;font-size:11px;color:#d4d4d4;letter-spacing:1px; text-decoration:underline; text-transform:uppercase;padding-top:15px;}
+.User_Review .titles_images {position:absolute;left:0;top:4px;z-index:1;}
+
+.User_Review .prev_button {position:absolute;width:30px;height:40px;top:110px;text-indent:-5000px;z-index:4;}
+.User_Review .prev_button a {display:block;width:100%;height:100%;background:transparent url(http://115.68.20.84/mall6/main/btn_next_prev.png) no-repeat 0 0;}
+.User_Review .next_button {position:absolute;width:30px;height:40px;top:110px;right:0;text-indent:-5000px;z-index:4;}
+.User_Review .next_button a {display:block;width:100%;height:100%;background:transparent url(http://115.68.20.84/mall6/main/btn_next_prev.png) no-repeat -30px 0;}
+
+/*브랜드리스트*/
+.BrandArea {clear:left;width:1100px;padding:10px 0 0 0;}
+.brand_commend {margin-left:-11px;height: 215px;margin-bottom: 20px;}
+.brand_commend li {float:left;padding-left:11px;}
+
+.OpleBrand_list {
+	clear:left;
+	position:relative;
+	width:1100px;
+	height:210px;
+	background-color:#fff;	
+	border-radius: 10px;
+	box-sizing:border-box; 
+	box-shadow: 0 2px 0 0 #c6c6c6;
+}
+.OpleBrand_list h3 {
+	float:left;
+	width:180px;
+	height:17px;
+	font-size:smaller;
+	text-indent:-5000px;
+	padding-top: 20px;
+	background: url(http://115.68.20.84/mall6/main/title_oplebrand.jpg) no-repeat 35px 20px;
+}
+.OpleBrand_list .more_link {
+	float:right;
+	width:135px;
+	height:17px;
+	font-size:smaller;
+	text-indent:-5000px;	
+}
+.OpleBrand_list .more_link a {
+	display:block;
+	width:100%;
+	height:17px;
+	padding-top: 20px;
+	background: url(http://115.68.20.84/mall6/main/btn_brand_more.gif) no-repeat 0 20px;
+}
+.OpleBrand_list ul {position:absolute;top: 50px;border-top:solid 1px #dbdbdb;}
+.OpleBrand_list li {
+	float: left;
+	width: 105px;
+	height: 60px;
+	padding: 10px 0;
+	border-top: solid 1px #f1f1f1;
+}
+
+
+/*health관*/
+.health {background: #f8f8f8 url(http://115.68.20.84/mall6/bg_contents_health.gif) repeat 0 0;}
+.health .headerArea {border-bottom: solid 2px #f05c22;}
+.health .contentsArea {background-color: #fff;}
+.health .cont_header h1 a {background: transparent url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 0;}
+
+.health .category {
+	/*font-family: Dotum !important;*/
+	width: 1130px;
+	margin-left: -15px;
+	height: 50px;
+	padding-bottom: 12px;
+	background: transparent url(http://115.68.20.84/mall6/health_banner/bg_category.png) no-repeat 0 0;
+}
+.health .DepthCategory {
+	background-color: #fff;
+	border: solid 1px #4a4d5a;
+	margin: 0px 0 0 10px;
+	box-shadow: 3px 3px 3px 0px #707070;
+	top: 50px;}
+
+.health .DepthCategory dl {margin: 9px 0 7px 0;padding: 0 5px 5px 5px;
+}
+
+.health .DepthCategory dt {font-weight: bold;color: #ed5b21;
+}
+.health .DepthCategory dt a {
+color: #ed5b21;}
+
+.health .DepthCategory dd {padding: 0;line-height: 16px;}
+.health .DepthCategory a {color: #3c3c3d;height: 16px;line-height: 16px;display: block;padding: 7px 20px;}
+.health .DepthCategory a:hover {color: #fff;text-decoration: none;background-color: #f67425;}
+.health .DepthCategory a:active {text-decoration: none;background-color: #f67425;}
+.health .DepthCategory dd a.more {border-top: solid 1px #e4e5e9;background: #f6f6f6 url(http://115.68.20.84/mall6/health_banner/ico_more.png) no-repeat 85% 10px;margin: 0 -5px -12px -5px;height: 20px;line-height: 20px;cursor: pointer;}
+
+.health .depth_full_box {width: 1100px;left: 0px !important;}
+.health .depth_full_box .pointer {background: url(http://115.68.20.84/mall6/depth_pointer_ts.png) no-repeat 150px 0;}
+.health .depth_full_box dl {float: left;}
+.health .depth_full_box dt {width: 25%;float: left;}
+.health .depth_full_box dd {width: 25%;float: left;}
+.health .DepthCategory dd a.more_close {
+	display: block;
+	text-align: right;
+	padding-right: 30px;
+	position: absolute;
+	width: 1055px;
+	left: -551px;
+	bottom: -61px;
+	border-top: solid 1px #e4e5e9;
+	border-bottom: solid 1px #4a4d5a;
+	border-left: solid 1px #4a4d5a;
+	border-right: solid 1px #4a4d5a;
+	background: #f6f6f6 url(http://115.68.20.84/mall6/health_banner/ico_moreClose.png) no-repeat 1080px 8px;
+	height: 20px;
+	line-height: 20px;
+}
+.health .DepthCategory dd a:hover.more_close, .health .DepthCategory dd a:hover.more {color: #fff;text-decoration: none;background-color: #f67425;}
+.health .DepthCategory dd a:active.more_close, .health .DepthCategory dd a:active.more {text-decoration: none;background-color: #f67425;}
+.health .DepthCategory dd a:visited.more_close, .health .DepthCategory dd a:visited.more {color: #3c3c3d;}
+.health .depth01_box {left: -10px;}
+.health .depth02_box {left: 34px;}
+.health .depth03_box {left: 125px;}
+.health .depth04_box {left: 272px;}
+.health .depth05_box {left: 343px;}
+.health .depth06_box {left: 469px;}
+.health .depth07_box {left: 543px;}
+.health .depth08_box {left: 740px;}
+.health .depth09_box {}
+.health .depth10_box {left: 986px;}
+.health .pointer {background: url(http://115.68.20.84/mall6/depth_pointer_ts.png) no-repeat 50% 0;}
+.health .category ul {min-height: 50px;padding: 18px 10px;}
+.health .category li a {height: 16px;}
+.health .category li {padding: 0 24px;background: url(http://115.68.20.84/mall6/health_banner/bg_line_orange.png) no-repeat 0 0;}
+.health .category li.depth01 a {width: 37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 0;}
+.health .category li.depth02 a {width: 37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -16px;}
+.health .category li.depth03 a {width: 37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -32px;}
+.health .category li.depth04 a {width: 89px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -48px;}
+.health .category li.depth05 a {width: 51px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -64px;}
+.health .category li.depth06 a {width: 37px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -80px;}
+.health .category li.depth07 a {width: 101px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -96px;}
+.health .category li.depth08 a {width: 88px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -112px;}
+.health .category li.depth09 a {width: 49px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -128px;}
+.health .category li.depth10 a {width: 101px;background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat 0 -144px;}
+.health .category li.depth01 a:hover, .health .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px 0;}
+.health .category li.depth02 a:hover, .health .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -16px;}
+.health .category li.depth03 a:hover, .health .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -32px;}
+.health .category li.depth04 a:hover, .health .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -48px;}
+.health .category li.depth05 a:hover, .health .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -64px;}
+.health .category li.depth06 a:hover, .health .category li.depth06 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -80px;}
+.health .category li.depth07 a:hover, .health .category li.depth07 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -96px;}
+.health .category li.depth08 a:hover, .health .category li.depth08 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -112px;}
+.health .category li.depth09 a:hover, .health .category li.depth09 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -128px;}
+.health .category li.depth10 a:hover, .health .category li.depth10 a.active {background: url(http://115.68.20.84/mall6/health_banner/text_category_ts.png) no-repeat -150px -144px;}
+
+.health .category_zoneA {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.health .category_zoneB {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.health .category_zoneC {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.health .category_zoneD {background: url(http://115.68.20.84/mall6/health_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.health .category_zoneA dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px 0;}
+.health .category_zoneB dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px -26px;}
+.health .category_zoneC dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px -52px;}
+.health .category_zoneD dt {background: url(http://115.68.20.84/mall6/health_banner/title_health_category.png) no-repeat 6px -78px;}
+.health .MainSpotZone {width: 1030px;margin-top: -10px;box-sizing: border-box;}
+.health .MainSpotImg {height: 327px;}
+.health .member_name {color: #5f6167;}
+.health .hotdealzoneArea {margin: 10px -35px;}
+
+/*home관*/
+.home {background: #f0f0f0 url(http://115.68.20.84/mall6/bg_contents_home.gif) repeat-x 0 0;}
+.home .headerArea {border-bottom: solid 2px #5d39bc;}
+.home .contents_sub {background-color: #fff;padding-top: 15px;}
+.home .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -50px;}
+
+.home .category {margin-left: -3px;top: -10px;width: 1106px;height: 50px;background: url(http://115.68.20.84/mall6/home_banner/bg_category.png) no-repeat 0 0;}
+.home .DepthCategory {width: 218px;background-color: #fff;border: solid 1px #4a4d5a;margin: 0px 0 0 0;padding: 5px 0;box-shadow: 3px 3px 3px 0px #707070;top: 48px;}
+
+/*.home .DepthCategory div {float:none;display:inline-block;}*/
+.home .DepthCategory dl {padding: 8px 10px 7px 10px;display: block;}
+.home .DepthCategory dt {font-weight: normal;padding: 5px 0;border-bottom: none;margin-bottom: 0;color: #4824b4;}
+.home .DepthCategory dt a {color: #4824b4;}
+.home .DepthCategory dd {display: block;}
+.home .DepthCategory dd span {display: block;}
+.home .DepthCategory a {color: #3c3c3d;height: 16px;line-height: 16px;display: block;padding: 7px 10px;width: 178px;}
+.home .DepthCategory a:hover {color: #fff;text-decoration: none;background-color: #5f3bb1;}
+.home .DepthCategory a:active {text-decoration: none;background-color: #5f3bb1;}
+.home .depth01_box {left: 0px;}
+.home .depth02_box {left: 220px;}
+.home .depth03_box {left: 438px;}
+.home .depth04_box {left: 656px;}
+.home .depth05_box {left: 874px;}
+.home .category ul {min-height: 38px;padding: 2px 0 9px 0;}
+.home .category li a {height: 38px;}
+.home .category li {padding: 0 50px;background: url(http://115.68.20.84/mall6/home_banner/bg_line_category.png) no-repeat 0 0;}
+.home .category li.depth01 a {width: 120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 0;}
+.home .category li.depth02 a {width: 120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -38px;}
+.home .category li.depth03 a {width: 120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -76px;}
+.home .category li.depth04 a {width: 120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -114px;}
+.home .category li.depth05 a {width: 120px;background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat 0 -152px;}
+.home .category li.depth01 a:hover, .home .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px 0;}
+.home .category li.depth02 a:hover, .home .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -38px;}
+.home .category li.depth03 a:hover, .home .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -76px;}
+.home .category li.depth04 a:hover, .home .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -114px;}
+.home .category li.depth05 a:hover, .home .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/home_banner/text_category_ts.png) no-repeat -120px -152px;}
+.home .category_zoneA {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.home .category_zoneB {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.home .category_zoneC {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.home .category_zoneD {background: url(http://115.68.20.84/mall6/home_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.home .category_zoneA dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px 0;}
+.home .category_zoneB dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px -26px;}
+.home .category_zoneC dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px -52px;}
+.home .category_zoneD dt {background: url(http://115.68.20.84/mall6/home_banner/title_health_category.png) no-repeat 6px -78px;}
+.home .MainSpotZone {width: 1094px;margin: 0 0 10px -32px;box-sizing: border-box;}
+.home .MainSpotImg {height: 304px;}
+.home .member_name {color: #5d39bc;}
+.home .hotdealzoneArea {margin: 10px -35px;}
+
+
+/*momnkids관*/
+.momnkids {background: #fff url(http://115.68.20.84/mall6/bg_contents_momnkids.gif) repeat 0 126px;}
+.momnkids .headerArea {border-bottom: solid 2px #e76e66;}
+.momnkids .contentsArea {background-color: #fff;}
+.momnkids .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -100px;}
+
+.momnkids .category {
+	margin-left: -43px;
+	width: 1186px;
+	height: 57px;
+	padding-bottom: 10px;
+	background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category.png) no-repeat 0 0;
+}
+.momnkids .DepthCategory {
+	width: 170px;
+	background-color: #fff;
+	border: solid 1px #e76e66;
+	padding: 8px 0 7px 0;
+	box-shadow: 3px 3px 3px 0px #707070;
+	top: 50px;
+}
+
+.momnkids .DepthCategory div {float: none;display: inline-block;}
+.momnkids .DepthCategory dl {padding: 8px 10px 7px 10px;display: block;}
+.momnkids .DepthCategory dt {font-weight: normal;padding: 5px 0;border-bottom: none;margin-bottom: 0;color: #e76e66;}
+.momnkids .DepthCategory dt a {color: #e76e66;}
+.momnkids .DepthCategory dd {}
+.momnkids .DepthCategory a {color: #3c3c3d;height: 16px;line-height: 16px;display: block;padding: 7px 10px;width: 130px;}
+.momnkids .DepthCategory a:hover {color: #fff;text-decoration: none;background-color: #e76e66;}
+.momnkids .DepthCategory a:active {text-decoration: none;background-color: #e76e66;}
+.momnkids .depth01_box {left: 92px;}
+.momnkids .depth02_box {left: 364px;}
+.momnkids .depth03_box {left: 629px;}
+.momnkids .depth04_box {left: 908px;}
+.momnkids .category ul {height: 16px;padding: 19px 50px 25px 50px;}
+.momnkids .category li a {height: 16px;}
+.momnkids .category li {padding: 0 100px;background: url(http://115.68.20.84/mall6/momnkids_banner/bg_line_category.png) no-repeat 0 0;}
+.momnkids .category li.depth01 a {width: 63px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 0;}
+.momnkids .category li.depth02 a {width: 63px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 -16px;}
+.momnkids .category li.depth03 a {width: 83px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 -32px;}
+.momnkids .category li.depth04 a {width: 63px;background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat 0 -48px;}
+.momnkids .category li.depth01 a:hover, .momnkids .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px 0;}
+.momnkids .category li.depth02 a:hover, .momnkids .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px -16px;}
+.momnkids .category li.depth03 a:hover, .momnkids .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px -32px;}
+.momnkids .category li.depth04 a:hover, .momnkids .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/momnkids_banner/text_category_ts.png) no-repeat -150px -48px;}
+.momnkids .category_zoneA {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.momnkids .category_zoneB {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.momnkids .category_zoneC {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.momnkids .category_zoneD {background: url(http://115.68.20.84/mall6/momnkids_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.momnkids .category_zoneA dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px 0;}
+.momnkids .category_zoneB dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px -26px;}
+.momnkids .category_zoneC dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px -52px;}
+.momnkids .category_zoneD dt {background: url(http://115.68.20.84/mall6/momnkids_banner/title_health_category.png) no-repeat 6px -78px;}
+.momnkids .MainSpotZone {width: 1030px;margin-top: -10px;box-sizing: border-box;}
+.momnkids .MainSpotImg {height: 327px;}
+.momnkids .member_name {color: #e76e66;}
+.momnkids .hotdealzoneArea {margin: 10px -35px;}
+
+/*beauty관*/
+.beauty {background: #f0f0f0 url(http://115.68.20.84/mall6/bg_contents_beauty.gif) repeat-x 0 0;}
+.beauty .headerArea {border-bottom: solid 2px #569aa9;}
+.beauty .contents_sub {background-color: #fff;padding-top: 15px;}
+.beauty .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -150px;}
+
+.beauty .category {
+height: 45px;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	/*background: url(http://115.68.20.84/mall6/beauty_banner/bg_category.png) no-repeat 0 0;*/
+}
+
+.beauty .DepthCategory {
+	width: 170px;
+	background-color: #fff;
+	border: solid 1px #dfdfdf;
+	padding: 7px 0;
+	box-shadow: 3px 3px 3px 0px #707070;
+	top: 52px;
+}
+
+.beauty .DepthCategory dl {padding: 8px 10px 7px 10px;display: inline-block;}
+.beauty .DepthCategory dt {font-weight: normal;padding: 5px 0;border-bottom: none;margin-bottom: 0;color: #569aa9;}
+.beauty .DepthCategory dt a {color: #569aa9;}
+.beauty .DepthCategory dd {}
+.beauty .DepthCategory a {color: #3c3c3d;height: 16px;line-height: 16px;display: block;padding: 7px 10px;width: 130px;}
+.beauty .DepthCategory a:hover {color: #fff;text-decoration: none;background-color: #569aa9;}
+.beauty .DepthCategory a:active {text-decoration: none;background-color: #569aa9;}
+.beauty .depth01_box {left: 26px;}
+.beauty .depth02_box {left: 244px;}
+.beauty .depth03_box {left: 455px;}
+.beauty .depth04_box {left: 672px;}
+.beauty .depth05_box {left: 895px;}
+.beauty .category ul {height: 16px;padding: 15px 0;}
+.beauty .category li a {height: 16px;}
+.beauty .category li {padding: 0 83px;background: url(http://115.68.20.84/mall6/beauty_banner/bg_line_category.png) no-repeat 0 0;}
+.beauty .category li.depth01 a {width: 50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 0;}
+.beauty .category li.depth02 a {width: 50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -16px;}
+.beauty .category li.depth03 a {width: 50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -32px;}
+.beauty .category li.depth04 a {width: 50px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -48px;}
+.beauty .category li.depth05 a {width: 64px;background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat 0 -64px;}
+.beauty .category li.depth01 a:hover, .beauty .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px 0;}
+.beauty .category li.depth02 a:hover, .beauty .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -16px;}
+.beauty .category li.depth03 a:hover, .beauty .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -32px;}
+.beauty .category li.depth04 a:hover, .beauty .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -48px;}
+.beauty .category li.depth05 a:hover, .beauty .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/beauty_banner/text_category_ts.png) no-repeat -150px -64px;}
+.beauty .category_zoneA {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneA.jpg) no-repeat 0 0;}
+.beauty .category_zoneB {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneB.jpg) no-repeat 0 0;}
+.beauty .category_zoneC {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneC.jpg) no-repeat 0 0;}
+.beauty .category_zoneD {background: url(http://115.68.20.84/mall6/beauty_banner/bg_category_zoneD.jpg) no-repeat 0 0;}
+.beauty .category_zoneA dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px 0;}
+.beauty .category_zoneB dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px -26px;}
+.beauty .category_zoneC dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px -52px;}
+.beauty .category_zoneD dt {background: url(http://115.68.20.84/mall6/beauty_banner/title_health_category.png) no-repeat 6px -78px;}
+.beauty .MainSpotZone {width: 1094px;margin: 0 0 10px -32px;box-sizing: border-box;}
+.beauty .MainSpotImg {height: 304px;}
+.beauty .member_name {color: #569aa9;}
+.beauty .hotdealzoneArea {margin: 13px -35px 10px -35px;}
+
+/*food관*/
+.food {background: #f0f0f0 url(http://115.68.20.84/mall6/bg_contents_food.gif) repeat-x 0 0;}
+.food .headerArea {border-bottom: solid 2px #1b7e5a;}
+.food .contentsArea {background-color: #fff;}
+.food .cont_header h1 {padding: 25px 0 4px 52px;}
+.food .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -200px;}
+
+.food .category {
+	margin-left: -110px;
+	width: 1228px;
+	height: 83px;
+	padding-bottom: 10px;
+	background: url(http://115.68.20.84/mall6/food_banner/bg_category.png) no-repeat 0 0;
+}
+.food .DepthCategory {
+	width: 140px;
+	background-color: #fff;
+	margin: 0px 0 0 85px;
+	box-shadow: 3px 3px 3px 0px #707070;
+	top: 67px;}
+
+.food .DepthCategory dl {padding: 8px 10px 7px 10px;display: inline-block;}
+.food .DepthCategory dt {font-weight: normal;padding: 5px 0;border-bottom: none;margin-bottom: 0;color: #e76e66;}
+.food .DepthCategory dt a {color: #e76e66;}
+.food .DepthCategory dd {}
+.food .DepthCategory a {color: #3c3c3d;height: 16px;line-height: 16px;display: block;padding: 7px 5px;width: 110px;}
+.food .DepthCategory a:hover {color: #fff;text-decoration: none;background-color: #1b7e5a;}
+.food .DepthCategory a:active {text-decoration: none;background-color: #1b7e5a;}
+.food .depth01_box {left: 40px;}
+.food .depth02_box {left: 195px;}
+.food .depth03_box {left: 336px;}
+.food .depth04_box {left: 480px;}
+.food .depth05_box {left: 645px;}
+.food .depth06_box {display: none;}
+.food .depth07_box {left: 976px;}
+.food .category ul {height: 16px;padding: 35px 14px 25px 110px;}
+.food .category li a {height: 16px;}
+.food .category li {padding: 0 47px;background: url(http://115.68.20.84/mall6/food_banner/bg_line_category.png) no-repeat 0 0;}
+.food .category li.depth01 a {width: 72px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 0;}
+.food .category li.depth02 a {width: 47px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -16px;}
+.food .category li.depth03 a {width: 47px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -32px;}
+.food .category li.depth04 a {width: 53px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -48px;}
+.food .category li.depth05 a {width: 94px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -64px;}
+.food .category li.depth06 a {width: 59px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -80px;}
+.food .category li.depth07 a {width: 65px;background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat 0 -96px;}
+.food .category li.depth01 a:hover, .food .category li.depth01 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px 0;}
+.food .category li.depth02 a:hover, .food .category li.depth02 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -16px;}
+.food .category li.depth03 a:hover, .food .category li.depth03 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -32px;}
+.food .category li.depth04 a:hover, .food .category li.depth04 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -48px;}
+.food .category li.depth05 a:hover, .food .category li.depth05 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -64px;}
+.food .category li.depth06 a:hover, .food .category li.depth06 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -80px;}
+.food .category li.depth07 a:hover, .food .category li.depth07 a.active {background: url(http://115.68.20.84/mall6/food_banner/text_category_ts.png) no-repeat -150px -96px;}
+
+.food .MainSpotZone {width: 1030px;margin-top: -20px;box-sizing: border-box;}
+.food .MainSpotImg {height: 327px;}
+.food .member_name {color: #1b7e5a;}
+.food .hotdealzoneArea {margin: 10px -35px;}
+
+/*fat관*/
+.fat {background: #f0f0f0 url(http://115.68.20.84/mall6/bg_contents_home.gif) repeat-x 0 0;}
+.fat .headerArea {border-bottom: solid 2px #d5b712;}
+.fat .contentsArea {}
+.fat .cont_header h1 a {background: url(http://115.68.20.84/mall6/bg_bi.png) no-repeat 0 -250px;}
+
+
+/*종합*/
+.member_name {font-size: 15px;}
+
+/**HeaderArea**/
+.headerArea {position: absolute;width: 100%;left: 0;top: -183px;background: #f0f0f0 url(http://115.68.20.84/mall6/bg_gnb.gif) repeat-x 0 45px;}
+
+/*GNBAREA*/
+.gnbArea {width: 1100px;margin: 0 auto;height: 118px;}
+.gnbArea li {
+	float: left;
+	height: 118px;
+	line-height: 118px;
+	padding: 0 7px;
+	background: url(http://115.68.20.84/mall6/bg_line.gif) no-repeat 0 51%;}
+
+.gnbArea li.first {background: none;}
+.gnbArea li.basket {background: url(http://115.68.20.84/mall6/ico_basket.png) no-repeat 0 46px;padding-left: 25px;}
+.gnbArea li.basket a strong {
+	display: inline-block;
+	width: 26px;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	line-height: 15px;
+	background: url(http://115.68.20.84/mall6/bg_basket_txt.png) no-repeat 0 0;}
+
+.gnbArea li a {color: #666;}
+
+.ico_down {padding-right: 15px;background: url(http://115.68.20.84/mall6/ico_down_point.png) no-repeat 100% 5px;}
+.ico_customer {padding: 0px 0 10px 32px;background: url(http://115.68.20.84/mall6/ico_customerCenter.png) no-repeat 0 0;}
+.gnbArea .gnb_left {float: left;}
+.gnbArea .gnb_right {float: right;}
+.gnbArea .button_ad {vertical-align: sub;}
+.gnbArea .button_ad img {vertical-align: sub;}
+.point_box {display: block;position: absolute;top: 70px;margin-left: -10px;padding-right: 10px;width: 133px;height: 21px;line-height: 21px !important;text-align: right;background: url(http://115.68.20.84/main/bg_point_box.png) no-repeat 0 0;}
+.point_box a {
+	display: block;
+	height: 21px;
+	line-height: 21px !important;
+	text-align: right;
+	font-weight: bold;
+	font-size: 11px;
+	color: #ffe400 !important;}
+.TotalSearchArea {position: absolute;margin: 10px 0 0 390px;/* margin:20px 0 0 0 \0/IE8;IE8적용*/width: 316px;height: 65px;}
+.OpleBI {text-indent: -5000px; width: 312px;margin: 10px 0;}
+.OpleBI a {display: block;width: 100%;height: 31px;background: url(http://115.68.20.84/mall6/bg_oplebi.png) no-repeat 50% 0;}
+.TotalSearchArea fieldset {height: 31px; margin-top: 5px;background: url(http://115.68.20.84/mall6/bg_totalSearch.png) no-repeat 0 0;}
+.TotalSearchArea input {border: none;background-color: #fff;height: 27px;line-height: 27px;width: 250px;padding: 0 5px;margin: 1px 0 0 1px;}
+.TotalSearchArea .button input {vertical-align: top;width: 50px;height: 31px;line-height: 31px !important;padding: 0;margin: 0 0 0 0 !important;}
+.TotalSearchArea select {display: inline-block;margin: 0 0 0 2px;padding: 5px 2px;width: 75px;height: auto;font-size: 11px;color: #666666;border: 1px solid #fff;vertical-align: middle;box-shadow: none;}
+
+/*2014_12.Seasonal_BI*/
+.TotalSearchArea_winter {position: absolute;margin: 20px 0 0 323px;/* margin:20px 0 0 0 \0/IE8;IE8적용*/width: 520px;height: 31px;}
+.TotalSearchArea_winter .OpleBI {
+	text-indent: -5000px;
+	width: 197px;
+	float: left;
+	margin-top: -20px;}
+
+.TotalSearchArea_winter .OpleBI a {display: block;width: 100%;height: 68px;background: url(http://115.68.20.84/mall6/bg_oplebi_seasonN.png) no-repeat 0 0;}
+.TotalSearchArea_winter fieldset {
+	height: 31px;
+	float: left;
+	background: url(http://115.68.20.84/mall6/bg_totalSearch.png) no-repeat 0 0;
+	margin-left: 10px;}
+.TotalSearchArea_winter input {
+	border: none;
+	background-color: #fff;
+	height: 27px;
+	line-height: 27px;
+	width: 200px;
+	padding: 0 5px;
+	margin: 1px 0 0 1px;}
+.TotalSearchArea_winter .button input {
+	vertical-align: top;
+	width: 50px;
+	height: 31px;
+	line-height: 31px !important;
+	padding: 0;
+	margin: 0 0 0 0 !important;}
+.TotalSearchArea_winter select {
+	display: inline-block;
+	margin: 0 0 0 2px;
+	padding: 5px 2px;
+	width: 75px;
+	height: auto;
+	font-size: 11px;
+	color: #666666;
+	border: 1px solid #fff;
+	vertical-align: middle;
+	box-shadow: none;}
+
+/*TabArea*/
+.TabArea {width: 1100px;margin: 0 auto;height: 65px;position: relative;left: -40px;}
+.TabArea ul {text-align: center;padding-top: 8px;}
+.TabArea li {display: inline;text-indent: -5000px;margin: 0;padding: 0;}
+.TabArea li a {display: inline-block;width: 164px;height: 59px;line-height: 59px;}
+.TabArea li.tab_health a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat 0 0;}
+.TabArea li.tab_home a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -164px 0;}
+.TabArea li.tab_momnbaby a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -328px 0;}
+.TabArea li.tab_bueaty a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -492px 0;}
+.TabArea li.tab_food a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -656px 0;}
+.TabArea li.tab_fat a {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px 0;}
+.TabArea li.tab_health a:hover, .TabArea li.tab_health a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat 0 -59px;}
+.TabArea li.tab_home a:hover, .TabArea li.tab_home a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -164px -59px;}
+.TabArea li.tab_momnbaby a:hover, .TabArea li.tab_momnbaby a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -328px -59px;}
+.TabArea li.tab_bueaty a:hover, .TabArea li.tab_bueaty a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -492px -59px;}
+.TabArea li.tab_food a:hover, .TabArea li.tab_food a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -656px -59px;}
+.TabArea li.tab_fat a:hover, .TabArea li.tab_fat a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px -59px;}
+.TabArea .btn_prepay {
+	text-indent: -5000px;
+	width: 120px;
+	padding: 0 0 0 20px;
+	margin-top: -33px;
+	right: 0;
+	position: absolute;}
+
+.TabArea .btn_prepay a {width: 119px;height: 31px;display: block;line-height: 31px;background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px -26px;}
+.TabArea .btn_prepay a:hover, .TabArea .btn_prepay a.active {background: url(http://115.68.20.84/mall6/tab_btn.png) no-repeat -820px -87px;}
+
+/***ContentsArea***/
+.contentsArea {width: 1100px;margin: 0px auto 0 auto;}
+
+/*content_headerArea*/
+.cont_header {/*.margin-top:110px;for IE 7*/}
+.cont_header h1 {
+text-indent: -5000px;
+float: left;
+padding: 25px 0 25px 52px;}
+
+.cont_header h1 a {display: block;width: 305px;height: 50px;}
+
+/*Search*/
+.searchArea {position: relative;float: left;margin: 38px 25px 0 25px;width: 410px;height: 34px;padding: 1px;background: url(http://115.68.20.84/mall6/bg_searchbox.gif) no-repeat 0 0;}
+.searchArea input {
+	border: none;
+	background-color: #f7f7fa;
+	height: 31px;
+	line-height: 31px;
+	width: 363px;
+	padding: 0 5px;
+	.width:353px; /*For IE 7*/}
+.searchArea .button {
+	margin-top: -1px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 3px;
+	top: 2px;}
+
+.searchArea .button input {vertical-align: middle;width: 32px;height: 32px;padding: 0;}
+
+.top_banner {float: right;height: 41px;margin: 32px 17px 0 0;}
+.top_banner p {
+	float: left;
+	padding: 0 10px 0 0;
+	text-indent: -5000px;}
+
+.top_banner p a {display: block;height: 42px;}
+.top_banner p.btn_best a {width: 120px;background: url(http://115.68.20.84/mall6/btn_top_banner2.png) no-repeat 0 0;}
+.top_banner p.btn_user a {width: 120px;background: url(http://115.68.20.84/mall6/btn_top_banner2.png) no-repeat 0 -41px;}
+.top_banner p.btn_requst a {width: 70px;background: url(http://115.68.20.84/mall6/btn_top_banner2.png) no-repeat 0 -28px;}
+.top_banner p.btn_hotdeal a {width: 105px; background: url(http://115.68.20.84/mall6/btn_top_banner2.png) no-repeat 0 -83px;}
+.top_banner p.btn_manwon a {width: 135px;background: url(http://115.68.20.84/mall6/btn_top_banner2.png) no-repeat 0 -124px;}
+
+/***MainArea*****/
+
+/*category*/
+.category {position: relative;clear: both;}
+.category li {float: left;text-indent: -5000px;}
+
+.category li.first {background: none;}
+.category li a {display: block;}
+.DepthCategory {position: absolute;z-index: 12;display: none;}
+.DepthCategory .pointer {
+	text-indent: -5000px;
+	height: 6px;
+	margin-top: -6px;}
+
+
+/*Contents*/
+.contents {padding: 0 35px 30px 35px;min-height: 800px;}
+.content_sub {clear: both;}
+
+
+
+/*SpotZone*/
+.MainSpotZone {margin-top: -10px;box-sizing: border-box;}
+.MainSpotZone p {margin-bottom: -3px;}
+.MainSpotZone ul {
+	width: 100%;
+	height: 42px;
+	border-top: solid 1px #9e9e9e;
+	border-bottom: solid 1px #9e9e9e;
+	border-right: solid 1px #9e9e9e;}
+.MainSpotZone li {
+	float: left;
+	border-left: solid 1px #9e9e9e;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #fff;}
+
+.MainSpotZone li a {display: block;width: 100%;height: 100%;color: #585858;}
+.MainSpotZone li.active a {background-color: #9e9e9e;color: #fff;text-decoration: none;font-weight: bold;}
+.MainSpotImgTitle {display: none;}
+.MainSpotImg {overflow: hidden;}
+.MainSpotImg_mask {overflow: hidden;position: relative;z-index: 0;}
+.MainSpotImg_mask > div {float: left;}
+
+
+/*featuredCategory*/
+.featured_category {clear: both;padding-top: 15px;}
+.featured_category h2 {
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	background: url(http://115.68.20.84/mall6/bg_title_line2.gif) repeat-x 0 17px;
+	padding: 0 0 10px 0;}
+
+.home .featured_category {margin: 0 -35px;}
+.beauty .featured_category {margin: 0 -35px;}
+.Area_wrap {float: left;width: 1030px;padding: 20px 35px;background-color: #fff;}
+.featured_category dl {width: 226px;height: 230px;float: left;padding: 15px 15px 0 15px;border-right: solid 1px #eaeaea;}
+.featured_category dt {text-indent: -5000px;height: 26px;margin-bottom: 35px;}
+.featured_category dd {width: 130px;height: 27px;line-height: 27px;border-bottom: solid 1px #eaeaea;padding-left: 8px;background: url(http://115.68.20.84/mall6/ico_arrow_orange.png) no-repeat left center;}
+.featured_category dd a {color: #515151;letter-spacing: -0.08em;}
+.featured_category .category_zoneD {border: none;}
+.recommend_box {float: left;position: relative;height: 177px;margin: 30px 0;width: 1030px;}
+.home .recommend_box {margin: 30px -35px;width: 1100px !important;}
+.beauty .recommend_box {margin: 30px -35px;width: 1100px !important;}
+.recommend_box span {display: block;float: left;}
+.ico_discount {position: absolute;left: 150px;top: -21px;width: 83px;height: 56px;text-indent: -5000px;background: url(http://115.68.20.84/mall6/ico_priceSpecial.png) no-repeat 0 0;}
+.recommend_box2 {float: left;position: relative;height: 191px;margin: 30px 0;}
+.recommend_box2 span {display: block;float: left;}
+
+.ico_plane {position: absolute;left: 506px;top: 1px;width: 68px;height: 189px;text-indent: -5000px;background: url(http://115.68.20.84/mall6/ico_plane.png) no-repeat 0 0;}
+
+/*베스트상품*/
+.best_zone {clear: both;}
+.home .best_zone {margin: 0 -35px;}
+.beauty .best_zone {margin: 0 -35px;padding-top:15px;}
+.best_zone h2 {height: 39px;line-height: 39px;background: url(http://115.68.20.84/mall6/bg_title_line3.gif) repeat-x 0 23px;padding: 10px 0 10px 20px;text-align: center;}
+.beauty .best_zone h2 {padding: 0 0 10px 20px;}
+.planning {float: left;}
+.home .planning {padding: 10px 20px;background-color: #fff;}
+.beauty .planning {padding: 10px 20px;background-color: #fff;}
+.best_list {float: right;width: 783px;}
+.home .best_list {padding: 15px;background-color: #fff;}
+.beauty .best_list {padding: 15px;background-color: #fff;}
+.best_list li {float: left;border-left: solid 1px #eee;padding: 5px 0;}
+.best_list li.first {border-left: none;}
+
+/*리스트가 12가지보일때 추가*/
+.best_list_12 {float: right;width: 1030px;}
+.best_list_12 li {
+float: left;
+	border-left: solid 1px #eee;
+	padding: 5px 0;}
+.best_list_12 li.first {border-left: none;}
+
+/*새로운 베스트*/
+.best_list_new {float: right;}
+.helth .best_list_new {width:1030px;}
+.home .best_list_new {width:1030px;padding: 35px;background-color: #fff;}
+.beauty .best_list_new {width:1030px;padding: 35px;background-color: #fff;}
+.momnkids .best_list_new {width:1030px;}
+.food .best_list_new {width:1030px;}
+
+
+.best_list_new li {
+	float:left;
+	position:relative;
+	text-align:center;
+	width: 256px;
+	height:250px;
+	border-left: solid 1px #eee;
+	padding: 7px 0 6px 0;}
+.best_list_new li.first {border-left:none;}
+.best_list_new li .discount_box {
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	background: url(http://115.68.20.84/mall6/ico_orange_sale.png) no-repeat 0 0;
+	top: 130px;
+	right: 20px;
+	display:block;}
+.best_list_new li .discount_box strong {
+	font-family: 'Slabo 27px', serif;
+	font-size: 22px;
+	color: #fff;
+	font-weight: normal;
+	display: inline-block;
+	padding: 6px 5px 0 8px;}
+.best_list_new li a img {width:175px;height:175px;}
+.best_list_new li .best_title {display:block;text-align:center;letter-spacing:-0.5px;padding:10px 0 2px 0;}
+.best_list_new li .best_title a {color:#707070;}
+.best_list_new li .best_title a:hover {text-decoration:none;}
+.best_list_new li .best_price {color:#222;font-size:18px;}
+.best_list_new li .best_price .msrp_price {font-style:normal;font-size:12px;color:#b0b0b0;text-decoration:line-through;}
+.best_list_new li .best_price .won_price {font-style:normal;font-size:12px;}
+
+
+
+
+/*Specail*/
+.SpecialZone {clear: both;height: 200px;}
+.home .SpecialZone {margin: 0 -35px;}
+.beauty .SpecialZone {margin: 0 -35px;}
+.weekleyZone {float: left;width: 280px;}
+.weekleyZone h2 {
+	height: 39px;
+	line-height: 39px;
+	background: url(http://115.68.20.84/mall6/bg_title_line3.gif) repeat-x 0 13px;
+	padding: 0 0 10px 20px;}
+
+.home .weekleyZone {width: 315px;}
+.home .weekleyZone h2 {padding: 0 0 10px 45px;}
+.home .weekleyZone p {padding: 15px;background-color: #fff;}
+
+.beauty .weekleyZone {width: 315px;}
+.beauty .weekleyZone h2 {padding: 0 0 10px 45px;}
+.beauty .weekleyZone p {padding: 15px;background-color: #fff;}
+
+.brandZone {float: right;width: 750px;}
+.brandZone h2 {
+height: 39px;
+	line-height: 39px;
+	background: url(http://115.68.20.84/mall6/bg_title_line3.gif) repeat-x 0 13px;
+	padding-bottom: 10px;
+	text-align: center;}
+.brandZone ul {
+	height: 136px;
+	padding-left: 52px;}
+.brandZone li {
+	float: left;
+	width: 86px;
+	height: 68px;
+	border: solid 1px #eee;
+	box-sizing: content-box;
+	margin: 0 0 -1px -1px;}
+
+.home .brandZone {width: 785px;}
+.home .brandZone ul {padding: 24px 35px 24px 52px;background-color: #fff;}
+.beauty .brandZone {width: 785px;}
+.beauty .brandZone ul {padding: 24px 35px 24px 52px;background-color: #fff;}
+
+
+/*신규브랜드*/
+.newBrand_info {height: 150px;margin-top: 10px;}
+.newBrand_info span {
+	display: inline-block;
+	width: 337px;
+	padding-left: 5px;}
+
+.newBrand_info span.first {padding-left: 0;}
+
+/***FooterArea***/
+.footerArea {clear: both;width: 1100px;margin: 20px auto 0 auto;padding-bottom: 50px;display:none;}
+
+.Footer_info {background-color: #f05c22;}
+.Footer_info .customerCenter {
+	float: left;
+	width: 270px;
+	height: 185px;
+	padding: 15px 0;
+	text-align: center;
+	background-color: #fff;}
+.Footer_info .banner {
+	float: left;
+	width: 450px;
+	height: 190px;
+	background-color: #fff;
+	margin-left: 18px;
+	text-align: center;
+	padding: 25px 0 0 0;}
+
+.Footer_info .banner span {padding: 0 9px;}
+.Footer_info .ople_infobox {
+	float: right;
+	width: 315px;
+	height: 190px;
+	background-color: #fff;
+	padding: 12px 15px;}
+
+.goodChoice {padding-bottom: 25px;}
+.goodChoice span {padding: 0 8px;}
+
+.ople_sns {background: url(http://115.68.20.84/mall6/ico_sns.png) no-repeat 10px 0px;height: 29px;line-height: 29px;letter-spacing: -1px;padding: 0 20px;}
+.ople_sns span.facebook a {
+	padding-left: 25px;
+	color: #3b579d;}
+.ople_sns span.blog a {
+	padding-left: 90px;
+	color: #09b900;}
+
+/*copyright*/
+.copyright {clear: both;text-align: center;}
+.copyright p {line-height: 20px;color: #a2a3aa;font-family: Tahoma;clear: left;}
+.copyright .BI {padding: 25px 0 20px 0;}
+.copyright .footer_gnb {
+	width: 340px;
+	text-align: center;
+	height: 13px;
+	margin: 0 auto 30px auto;}
+
+.copyright .footer_gnb li {float: left;height: 13px;line-height: 13px;background: url(http://115.68.20.84/mall6/bg_line_footer.gif) no-repeat 0 50%;padding: 0 10px;}
+.copyright .footer_gnb li.first {background: none;}
+.copyright .footer_gnb li a {font-weight: bold;color: #706e7c;}
+
+.hide_cate {display: none;}
+
+/*추가분_Footer*/
+.ADD_footerArea {width: 1100px;margin: 20px auto 0 auto;background-color: #ececec;padding: 15px;}
+.ADD_footerArea form {
+	width: 290px;
+	float: left;
+	padding-top: 10px;}
+.ADD_footer_info1 {padding-left: 315px;color: #656772;padding-bottom: 10px;}
+.ADD_footer_info2 {padding-left: 315px;color: #a2a3aa;}
+.ADD_footer_info2 strong {display: block;font-weight: bold;color: #706e8f;}
+
+
+/*floating_banner*/
+.Floating_bannerArea {position: relative;width: 1100px;z-index: 11;right:-40px;}
+.main .Floating_bannerArea  {display:none;}
+.main .contents_sub .Floating_bannerArea {display:none;}
+.flating_banner1 {position: absolute;}
+.home .health_only, .momnkids .health_only, .beauty .health_only, .food .health_only {display:none;}
+
+/*전체이벤트*/
+.eventArea {}
+
+.event_title {position: absolute;width: 100%;left: 0;margin: 0;background: url(http://115.68.20.84/event/renewal/bg_renewal_titlebox.jpg) repeat-x 50% 0;}
+.event_title span {display: block;width: 1560px;margin: 0 auto;}
+.event_contents {padding-top: 475px;padding-left: 40px;position: relative;}
+.event_contents p.event_object {
+	width: 401px;
+	height: 343px;
+	position: absolute;
+	left: -161px;
+	top: 247px;}
+
+.event_tab {padding-bottom: 30px;}
+
+/*아이콘_리스트 추가*/
+.iconAdd {display: block;position: absolute;width: 185px;text-align: right;padding-right: 20px;}
+
+
+/*장바구니 팝업 추가*/
+.cart_pop_wrap {position: absolute;top: 175px;left: 50%;width: 367px;height: 261px;border: 2px solid #303030;margin-left: -130px;background: url(http://115.68.20.84/mall6/page/sub/cart_pop.jpg);}
+.cart_pop_wrap .cart_pop_close {position: absolute;right: 0;}
+.cart_pop_wrap .cart_pop_bt {position: absolute;top: 204px;left: 30px;}
+
+.cart_pop_wrap .cart_pop_bt a {margin: 0 10px;}
+
+/*장바구니_토탈정보*/
+.total_Area {width: 1030px;float: left;background-color: #f3f4f6;border-bottom: solid 1px #ececec;}
+.total_Area .total_attend {
+	width: 545px;
+	float: left;
+	padding: 20px 20px 20px 75px;
+	line-height: 18px;
+	background: url(../images/common/ico_total_attend.gif) no-repeat 20px 20px;}
+.total_Area dl {
+	width: 390px;
+	background-color: #9fa8b4;
+	float: right;
+	color: #fff;
+	font-size: 13px;}
+.total_Area dt {
+display: block;
+	width: 90px;
+	float: left;
+	padding: 12px 20px;}
+.total_Area dd {
+	display: block;
+	text-align: right;
+	padding: 12px 20px;}
+.total_Area dl .total_pay {
+	font-size: 15px;
+	font-weight: 600;
+	padding: 5px 20px;}
+
+/*CS_FAQ*/
+.faq_board table {border-collapse: collapse;}
+.faq_board {margin-top: 16px;width: 1030px;color: #555555;}
+.question {padding: 10px;border-bottom: 1px solid #eeeeee;border-top: 1px solid #eeeeee;width: 968px;padding-left: 20px;}
+.question a {
+	display: block;
+	background: url(http://115.68.20.84/bul_arrow.gif) right center no-repeat;
+	text-decoration: none;
+	color: #555555;}
+
+.answer {background-color: #fbfbfb;padding: 20px;width: 968px;line-height: 20px;}
+.ico {width: 62px;text-align: center;vertical-align: middle;}
+.emphasis {font-weight: bold;color: #ff0000;}
+.emphasis_box {background-color: #efefef; display:block; padding: 10px; color: #000;}
+
+/*FAP TAP*/
+.faq_tab {}
+.TabStyle_A {height: 33px;line-height: 32px;margin-top: 25px;width: 1030px;border-bottom: solid 1px #000;}
+.TabStyle_A li {float: left;}
+.TabStyle_A li a {display: block;padding: 0 15px;height: 32px;line-height: 32px;background-color: #f8f8f8;text-decoration: none;color: #b0b8c1;border-top: solid 1px #bcbcbc;border-bottom: solid 1px #666;border-right: solid 1px #bcbcbc;border-left: solid 1px #bcbcbc;margin-left: -1px;}
+.TabStyle_A li.active a {background-color: #fff;font-weight: bold;color: #000;border-top: solid 1px #666;border-bottom: solid 1px #fff;border-right: solid 1px #666;border-left: solid 1px #666;margin-right: 1px;}
+
+.faq_content {display: none;}
+.TabStyle_A > li {cursor: pointer;}
+.faq_table {display: none;}
+.faq_table_on {display: table;}
+.question_active {font-weight: bold;}
+
+
+/*FAQ Title*/
+.FAQTitle {padding: 10px 0;height: 20px;line-height: 20px;margin: 10px 0;}
+
+
+/*공지사항 추출*/
+.notice_wrap {border-top: solid 3px #000;border-collapse: collapse;width: 1030px;border-bottom: solid 1px #ececec;}
+
+.notice_content {display: none;}
+.notice_content td {padding: 20px;}
+.notice_content.notice_content_active {display: table-row;}
+.notice_subject {cursor: pointer;font-size: 12px;border-bottom: solid 1px #ececec;padding: 10px 0;line-height: 18px;background-color: #fbfbfb;border-top: solid 1px #ececec;}
+.notice_subject.notice_subject_active {font-weight: bold;}
+
+
+/*FAQ 답변*/
+  .emphasis_box span {
+  display: inline-block;
+  vertical-align: top;
+  }
+
+  .box_harf {
+  width: 420px;
+  border-right: 1px solid #d2d2d2;
+  display: inline-block;
+  margin-right: 16px;
+  }
+
+
+/* 브랜드 리스트 */
+.Brand_List {margin-top: 30px;}
+.Brand_List h3 {font-size: 20px; padding-left: 30px; font-weight: normal; background-color: #f5f5f5; clear:both;}
+.Brand_List ul {margin: 20px; float: left; width: 990px; padding: 10px 0 30px 0;}
+.Brand_List .brand_img { margin: 5px 0; display: block; }
+    .Brand_List ul li {
+        float: left;
+        width: 163px;
+        height: 95px;
+        text-align: center;
+        border: 1px solid #dedede;
+        margin-right: -1px;
+        margin-top: -1px;
+        vertical-align: top;
+    }
+
+
+/*20150202_배송비 프로모션*/
+.banner_Promotion {position:relative;width:1030px; height:124px;background: url(http://115.68.20.84/event/banner_dilvery_rs.jpg) no-repeat 0 0;}
+.banner_Promotion .price_USD_cart {position:absolute;font-size:12px;color:#3f3f3f;height:20px;line-height:20px;left:320px;top:28px;}
+.banner_Promotion .price_USD_cart em {font-style:normal;color:#db2424;}
+.banner_Promotion ul {position:absolute;width:600px;height:50px;right: 10px;top: 56px;}
+.banner_Promotion ul li {float:left;width:200px;line-height:50px;}
+.banner_Promotion ul li strong {font-size:14px;color:#cf0000;}
+
+/*** 신규상품 리스트 ***/
+
+.new_list { width: 1030px; height: 200px; position: relative; margin-top: 40px; padding-bottom: 40px; border-bottom: 1px solid #eeeeee; }
+.main_list .new_list {width: 1030px; height: 200px; position: relative; margin: 10px 0;padding: 35px;border-radius: 10px;background-color: #fff;box-shadow: 0 2px 0 0 #c6c6c6;}
+.new_list .brand { display: block; position: absolute; font-weight: bold; color: #000; }
+.new_list .list_title { display: block; position: absolute; top: 25px; }
+.main_list .new_list .list_title { display: block; position: absolute; top: 65px; }
+.new_list .list_title .b_title { display: block; font-weight: bold; color: #dc6500; font-size: 25px; line-height: 35px; letter-spacing: -1px;}
+.new_list .list_title .s_title { display: block; color: #7b7b7b; line-height: 17px; margin-top: 10px; }
+.new_list .item_con { position: absolute; width: 695px; height: 50px; background-color: #fbfbfb; padding: 10px; top: 130px; left: 0; }
+.main_list .new_list .item_con { position: absolute; width: 695px; height: 50px; background-color: #fbfbfb; padding: 10px; top: 170px;left:30px;}
+.new_list .item_con .title {  display: block; position: absolute; top: 13px; }
+.new_list .item_con .title .ko {  display: block; color: #000; font-weight: bold; font-size: 14px; line-height: 22px; }
+.new_list .item_con .title .e {  display: block; color: #848383; font-size: 13px; line-height: 20px; }
+.new_list .item_con .price {  display: block; position: absolute; color: #000; font-size: 15px; line-height: 50px; right: 12px; font-weight: bold; }
+
+.new_list p { position: absolute; bottom: 0;}
+
+.icon_new_hot {width: 1100px;position: relative;}
+.icon_new_hot span {position: absolute; display: block;width:84px;height:79px;right: 20px;top: 20px;z-index: 5;}
+
+.new_product_wrap {overflow:hidden;height:291px;position: relative;}
+.home .new_product_wrap, .beauty .new_product_wrap {margin:0 -35px;}
+.new_product_wrap h2 {height: 39px;line-height: 39px;background: url(http://115.68.20.84/mall6/bg_title_line2.gif) repeat-x 0 23px;padding: 10px 0 10px 20px;text-align: center;}
+.new_product_wrap>.icon_new_hot{position: absolute;}
+.new_product {position:absolute;  background-color: #fff;}
+.home .new_product, .beauty .new_product {padding:20px 35px;}
+.new_product .new_list{float:left;margin-top: 0;border-bottom: none; padding-bottom: 0;}
+.home .new_product .new_list, .beauty .new_product .new_list {width: 1100px !important; height: 213px !important;}
+.main_list_btn {position: absolute; top: 135px; width: 26px; height: 40px; text-indent: -5000px; cursor: pointer;}
+.main_list_btn.main_list_btn_prev{background: url(http://115.68.20.84/main/btn_next_prev_orange.png) no-repeat 0 0;}
+.main_list_btn.main_list_btn_next{right:0;background: url(http://115.68.20.84/main/btn_next_prev_orange.png) no-repeat -26px 0;}
+
+.button_wrap {width: 1100px; position: relative; margin: 0 -35px; top: -291px;}
+
+   
+
+/*** 브래그&진저피플 이벤트 후기 ***/
+.event_hoogi {margin-top:20px;   border-top: 1px solid #dddddd;}
+.event_hoogi .hoogi_list tr {text-align:center;}
+.event_hoogi .hoogi_list tr td { border-bottom: 1px solid #ddd; padding: 10px 0;}
+.event_hoogi .hoogi_list_subject {text-align: left; font-weight: bold;}
+.event_hoogi .hoogi_list_more {background-color:#fafafa;}
+.event_hoogi .hoogi_list_more td {text-align: left; padding-left:20px;}
+.event_hoogi .hoogi_list_more span {display: block; line-height: 18px;}
+.event_hoogi .hoogi_list_more img {margin: 10px 0;}
+
+.event_hoogi .hoogi_bt {margin:20px 0; width: 1030px; text-align: right;}
+
+.event_hoogi .event_hoogi_write {border-top: 2px solid #555; border-bottom: 2px solid #555; }
+.event_hoogi .event_hoogi_write tr td {border-bottom: 1px solid #ddd; padding: 15px 0;}
+.event_hoogi .event_hoogi_write tr td:first-child {background-color:#f7f7f7; text-align: center;}
+.event_hoogi .event_hoogi_write tr td:last-child {padding-left: 15px;}
+
+
+/*** 2015.04.15 하나카드 이벤트 상품선택***/
+.event_prouct_select {width:946px;padding:30px 42px;background:#48c7c8 url(http://115.68.20.84/event/bg_hanacard_event.jpg) no-repeat 0 0;}
+.event_title_s {margin:20px 0;}
+.event_prouct_select .event_box_s {
+	margin:20px 0;
+	padding-bottom:50px;
+	background:#fff url(http://115.68.20.84/event/select_box_bottom.jpg) no-repeat 0 100%;
+}
+.event_box_s .event_prouductArea {padding: 0 50px;width: 846px;}
+.event_box_s .event_prouductArea li.item_box {float:left;width:215px !important;height: 350px; margin: 7px 7px 7px 8px;border:solid 1px #eeeeee;}
+.event_box_s .event_prouductArea .secelt_Area {text-align:center;}
+.event_box_s .select_button {clear:left;text-align:center;padding:20px 0;}
+
+/*20150421_가정의달이벤트_상품상세보기*/
+#item_set {margin: 0 30px;border: solid 1px #777;background-color: #fafafa;}
+#item_set h2 {padding: 15px; border-bottom: solid 2px #777;color: #000;letter-spacing: -1px;font-size: 17px;}
+
+/*20150427_아이콘추가*/
+.ico_off_arrow {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 85px;
+	height: 81px;
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Slabo 27px', serif;
+	line-height: 50px;
+	background: url(http://115.68.20.84/mall6/ico_off_arrow.png) no-repeat 0 0;
+ }
+.msrp_price {text-decoration: line-through;}

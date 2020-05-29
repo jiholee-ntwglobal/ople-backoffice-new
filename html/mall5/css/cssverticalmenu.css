@@ -1,0 +1,96 @@
+#category, #category li ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 185px; /*WIDTH OF MAIN MENU ITEMS*/
+border: 1px solid black;
+}
+
+#category li{
+position: relative;
+}
+
+#category li a{
+background: white url(glossyback.gif) repeat-x bottom left;
+color: white;
+display: block;
+width: auto;
+padding: 5px 0;
+padding-left: 10px;
+text-decoration: none;
+}
+
+#category li ul{ /*SUB MENU STYLE*/
+position: absolute;
+width: 190px; /*WIDTH OF SUB MENU ITEMS*/
+left: 0;
+top: 0;
+display: none;
+}
+
+#category li ul li{
+float: left;
+}
+
+#category li ul a{
+width: 180px; /*WIDTH OF SUB MENU ITEMS - 10px padding-left for A elements */
+}
+
+#category #ns1 a {
+    background-position: 0 0;
+    margin-right: 0px;
+}
+
+#category #ns2 a {
+    background-position: -60 0;
+    margin-right: 0px;
+}
+
+#category #ns3 a {
+    background-position: -120 0;
+    margin-right: 0px;
+}
+
+#category #ns4 a {
+    background-position: -180 0;
+    margin-right: 0px;
+}
+
+#category #ns5 a {
+    background-position: -240 0;
+    margin-right: 0px;
+}
+
+#category #ns6 a {
+    background-position: -300 0;
+    margin-right: 0px;
+}
+
+#category #ns7 a {
+    background-position: -360 0;
+    margin-right: 0px;
+}
+
+#category #ns8 a {
+    background-position: -420 0;
+    margin-right: 0px;
+}
+
+#category .arrowdiv{
+position: absolute;
+right: 2px;
+background: transparent url(arrow.gif) no-repeat center right;
+}
+
+#category li a:visited, #category li a:active{
+color: white;
+}
+
+#category li a:hover{
+background-image: url(glossyback2.gif);
+}
+
+/* Holly Hack for IE \*/
+* html #category li { float: left; height: 1%; }
+* html #category li a { height: 1%; }
+/* End */

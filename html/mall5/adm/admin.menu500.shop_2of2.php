@@ -1,0 +1,27 @@
+<?php
+$menu["menu500"] = array (
+    array("500000", "이벤트 관리", ""),
+	array("500100", "이벤트일괄처리신)", "$g4[shop_admin_path]/itemeventlist_new.php"),
+    array("500200", "이벤트관리", "$g4[shop_admin_path]/itemevent.php"),
+    array("500300", "이벤트일괄처리", "$g4[shop_admin_path]/itemeventlist.php"),
+	array("500400", "굿데이이벤트설정", "$g4[shop_admin_path]/oneday.php"),
+	array("500423", "굿데이이벤트_리뉴얼", "$g4[shop_admin_path]/oneday_new.php"),
+	array("500600", "만원의 행복 이벤트 순서 수동변경", "$g4[shop_admin_path]/manwon_event_manual_list.php"),
+    array('500701', '체험상품 이벤트', $g4['shop_admin_path'].'/sample_item.php'),
+    array('500702', '썸버빅세일 이벤트', $g4['shop_admin_path'].'/summer_sale_event.php'),
+    array('500703', '마스터카드블랙프라이데이이벤트대상자', $g4['shop_admin_path'].'/mastercard_bl_event.php'),
+    array('500800', '이벤트 통계관리', $g4['shop_admin_path'].'/eventresearch_list.php'),
+    array('500900', '상품입고 LMS 내용 관리', $g4['shop_admin_path'].'/ople_item_add_lms_contents.php'),
+	array("500500", "프로모션관리", "$g4[shop_admin_path]/promotion_list.php"),
+	array("500510", "프로 상품 할인 관리", "$g4[shop_admin_path]/promotion_item_dc_list.php"),
+	array("500511", "프로 상품 할인가격 캐시 재생성", "$g4[shop_admin_path]/promotion_item_dc_cache.php"),
+//	array("500512", "프로모션 통계", "$g4[shop_admin_path]/event_stats.php"),
+	array("500520", "프로모션 상품 검색", "$g4[shop_admin_path]/promotion_item_search.php"),
+    array("500530", "오플러 관리", "$g4[shop_admin_path]/opler_list.php"),
+    array("500540", "쿠폰 관리", "$g4[shop_admin_path]/coupon_list.php"),
+    array("500600", "키워드 관리", "$g4[shop_admin_path]/keyword_list.php"),
+    array("500700", "경품후기 관리", "$g4[shop_admin_path]/gift_hoogi_list.php"),
+
+    array("500550", "상품 회원할인가 관리", "$g4[shop_admin_path]/item_member_price_list.php"),
+    array("500560", "하나빅데이터 10달러샵 관리", "$g4[shop_admin_path]/hana_bigdata_10shop.php"),
+);

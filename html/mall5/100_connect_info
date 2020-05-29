@@ -1,0 +1,7 @@
+./adm/shop_admin/sample_item.php:$NTICS_INFO = json_decode(file_get_contents('http://100.39.49.22/etc/item_info.php?upc='.$upc_in),true);
+./adm/shop_admin/summer_sale_event_write.php:    $ntics_info = file_get_contents('http://100.39.49.22/etc/item_info.php?upc='.$mapping['upc']);
+./config.php:$NTICS_DATA_URL = 'http://100.39.49.22/etc/item_info.php';
+./cron/mssql_test.php:$MS_CONN = sqlsrv_connect('100.39.49.22',$_CONNECT_INFO);
+./lib/db_bs.php:        $hostname = "100.39.49.22";
+./lib/db_define.php:    'host'=>'100.39.49.22',
+./lib/db.php:        $hostname = "100.39.49.22";

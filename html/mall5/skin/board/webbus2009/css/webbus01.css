@@ -1,0 +1,302 @@
+.kv_notice {
+    font-family: "µ¸¿ò";
+	font-size: 18pt;
+	color: #282828;
+	text-decoration: none;
+}
+
+.12font {
+    font-family: "µ¸¿ò";
+	font-size: 18pt;
+	color: #282828;
+	text-decoration: none;
+}
+.stand {
+	font-size: 9pt;
+	color: #111111;
+	text-decoration: none;
+}
+.blue {
+	font-size: 9pt;
+	color: #00287D;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+.green2 {
+	font-size: 9pt;
+	color: #3FAE11;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+.green2s {
+	font-size: 8pt;
+	color: #3FAE11;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+.green2line {
+	font-size: 9pt;
+	color: #3FAE11;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: normal;
+}
+.green2sline {
+	font-size: 8pt;
+	color: #3FAE11;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: normal;
+}
+.gray {
+	font-size: 9pt;
+	color: #444444;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	font-family: "µ¸¿ò";
+	color: #555555;
+}
+a:hover {
+	color: #008C00;
+	font-family: "µ¸¿ò";
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+	font-family: "µ¸¿ò";
+	color: #555555;
+}
+.white {
+	font-size: 9pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.gray2 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #333333;
+}
+.gal {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #6C4100;
+}
+.orange {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #FB6104;
+}
+.green {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #009900;
+}
+.blue2 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #0099CC;
+}
+.oksak {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #009999;
+}
+.gray8 {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #666666;
+}
+.gal2 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #8D7D4B;
+}
+.gray3 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #555555;
+	text-decoration: none;
+}
+.gray3s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #555555;
+	text-decoration: none;
+}
+.bigstd {
+	font-family: "µ¸¿ò";
+	font-size: 11pt;
+	color: #000000;
+}
+.whitebig {
+	font-family: "µ¸¿ò";
+	font-size: 12pt;
+	font-style: normal;
+	color: #FFFFFF;
+}
+.gray4 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	font-style: normal;
+	color: #E0E0E0;
+}
+.stands {
+	font-size: 8pt;
+	color: #111111;
+	text-decoration: none;
+}
+.blues {
+	font-size: 8pt;
+	color: #00287D;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+.grays {
+	font-size: 8pt;
+	color: #444444;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.whites {
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: "µ¸¿ò";
+}
+.gray2s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #333333;
+}
+.gals {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #6C4100;
+}
+.oranges {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #FB6104;
+}
+.greens {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #009900;
+}
+.blue2s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #0099CC;
+}
+.oksaks {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #009999;
+}
+.gray8s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #666666;
+}
+.big {
+	font-family: "µ¸¿ò";
+	font-size: 12pt;
+	color: #000000;
+}
+.gal2s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #8D7D4B;
+}
+.gray5 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #CCCCCC;
+}
+.gray5s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #CCCCCC;
+}
+.pink {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #FF3366;
+}
+.pinks {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #FF3366;
+}
+.back_blue {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #FFFFFF;
+	background-color: #1188FF;
+}
+.back_orange {
+	font-family: "µ¸¿ò";
+	color: #FFFFFF;
+	background-color: #FF6600;
+}
+.back_yellow {
+	font-family: "µ¸¿ò";
+	color: #FFFFFF;
+	background-color: #FBE906;
+}
+.gray6 {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #999999;
+}
+.gray6s {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #999999;
+}
+.back_purple {
+	font-family: "µ¸¿ò";
+	color: #FFFFFF;
+	background-color: #6633CC;
+}
+.purple {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #6633FF;
+}
+.purples {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #6633FF;
+}
+.back_gray {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #FFFFFF;
+	background-color: #999999;
+}
+.bluewhite {
+	font-family: "µ¸¿ò";
+	font-size: 9pt;
+	color: #508AC5;
+	text-decoration: underline;
+}
+.bluewhites {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	color: #508AC5;
+	text-decoration: underline;
+}
+.blink1 {
+	font-family: "µ¸¿ò";
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FF3300;
+	text-decoration: blink;
+}
