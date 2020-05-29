@@ -1,6 +1,6 @@
 <?php
-$secret = "5RfdwKcqVajNg27SFjEl2rruZDJDOFWJ";
-$workingcopy = "/usr/share/nginx/html";
+$secret = "q7O3r9E7UkMHMZcdhK8m7lzvRzF2xgYU";
+$workingcopy = "/ssd";
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
 $github_event = $_SERVER['HTTP_X_GITHUB_EVENT'];
 
