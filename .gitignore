@@ -702,6 +702,7 @@ html/**/*.xls
 !html/robots.txt
 *.txt
 *.gz
+**/CHANGELOG.TXT
 **/*.zip
 
 # Symlink
