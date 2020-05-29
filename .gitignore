@@ -680,10 +680,17 @@ ople_data/*.sql
 !ople_data/data/
 html/api_sdks/
 html/florex/
+html/mall5/adm/html_block/**
+!html/mall5/adm/html_block/
 html/mall5/dbconfig.php
 html/mall5/lib/search.php
 html/mall5/common.php
 html/mall5/head.sub.php
+html/mall5/shop/kcp-vcnt/common_return.php*
+html/mall5/shop/kcp-vcnt/mod.php*
+html/mall5/shop/kcp-vcnt/result.php*
+html/mall5/skin/board/webbus2009/**
+!html/mall5/skin/board/webbus2009/
 html/nutrabolt/
 html/nutrabolt_bk2/
 html/openmarket/
@@ -706,3 +713,4 @@ html/mall5/js2/
 # Storeage
 html/mall5/adm/shop_admin/admin_upload/
 html/mall5/adm/shop_admin/msrp_upload/
+html/mall5/smart_editor/upload/**
