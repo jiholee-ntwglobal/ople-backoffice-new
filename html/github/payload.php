@@ -7,7 +7,7 @@ $github_event = $_SERVER['HTTP_X_GITHUB_EVENT'];
 if ($signature && $github_event == 'push') {
     $secrethash = "sha1=".hash_hmac('sha1', file_get_contents("php://input"), $secret);
     if (strcmp($signature, $secrethash) == 0) {
-        $input = "sh deploy.sh 2>&1";
+        $input = "sh ../deploy.sh 2>&1";
         $output = "";
         exec($input, $output);
         header("Content-type:application/json");
