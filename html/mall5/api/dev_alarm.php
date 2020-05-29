@@ -1,6 +1,6 @@
 <?php
 /**
- * 개발용 SMS 발송 프로세스
+ * 개발용 SMS 발송 프로세스 test
  */
 
 error_reporting(E_ALL);
