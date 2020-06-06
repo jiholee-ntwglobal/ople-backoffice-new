@@ -6146,7 +6146,7 @@ function nordic_member_price_item_event_data_cancel_201910($od_id) {
 	// 노르딕 프리블프 노르딕상품(2+1상품 제외) 25%할인 적용 취소 => 노르딕 프리블프 노르딕상품 15%할인 적용 취소 @nordic_20200413
     sql_query("
             UPDATE yc4_order
-            SET od_shop_memo=concat(od_shop_memo,'\\n','노르딕 프리블프 노르딕상품 20%할인 적용 취소')
+            SET od_shop_memo=concat(od_shop_memo,'\\n','노르딕 프리블프 노르딕상품 15%할인 적용 취소')
             WHERE od_id='{$od_id}'
             ");
 
@@ -7642,32 +7642,4 @@ function jarrow_point_20200512_cancel($od_id)
     sql_query("UPDATE yc4_order SET od_shop_memo = CONCAT(od_shop_memo,'\\n','자로우 브랜드 제품 포인트 이벤트 ".$event_data['value5']."불이상 결제시(".$event_data['value4'].") 포인트 지급 취소') WHERE od_id='" . $od_id . "'");
 
     return true;
-}
-
-//2020 05 25 7일간 메모리얼 기념 할인 이벤트 100불이상 5% 할인 취소
-function memorial_ev_202005_100_5usddc_cancel($od_id){
-	if(!$od_id || trim($od_id)==''){
-		return false;
-	}
-
-	$od_id = sql_safe_query($od_id);
-
-	$chk = sql_fetch("
-					SELECT uid,
-					value1 AS od_id,
-					value5 
-					FROM yc4_event_data 
-					WHERE ev_code='memorial_202005' 
-					AND ev_data_type='od_id' 
-					AND value1 = '".$od_id."' AND value7 IS NULL");
-
-	if(!$chk || !$chk['od_id'] || !$chk['uid']){
-		return false;
-	}
-
-	sql_query("UPDATE yc4_event_data SET value7= 'CANCEL' WHERE uid='".$chk['uid']."'");
-
-	sql_query("UPDATE yc4_order SET od_dc_amount = od_dc_amount - ".$chk['value5'].",od_shop_memo = CONCAT(od_shop_memo,'\\n','2020 05월 메모리얼데이 기념 할인 이벤트 100불이상 구매시 5%(".$chk['value5'].") 할인취소') WHERE od_id='" . $od_id . "'");
-
-	return true;
 }

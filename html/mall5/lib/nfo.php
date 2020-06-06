@@ -668,7 +668,8 @@ option
                                 $upload_file_arr = array();
                                 foreach ($img_arr as $img_path) {
                                     $upload_file_arr[] = array(
-                                        'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                                        // 'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                                        'remote_path' => str_replace('/ssd/opledata/data/item_tmp','/ssd/opledata/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
                                         'local_path' => $img_path
                                     );
                                 }
@@ -765,7 +766,8 @@ option
                                 $upload_file_arr = array();
                                 foreach ($img_arr as $img_path) {
                                     $upload_file_arr[] = array(
-                                        'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                                        // 'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                                        'remote_path' => str_replace('/ssd/opledata/data/item_tmp','/ssd/opledata/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
                                         'local_path' => $img_path
                                     );
                                 }
@@ -1095,7 +1097,8 @@ option
                 $upload_file_arr = array();
                 foreach ($img_arr as $img_path) {
                     $upload_file_arr[] = array(
-                        'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                        // 'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                        'remote_path' => str_replace('/ssd/opledata/data/item_tmp','/ssd/opledata/data/item',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
                         'local_path' => $img_path
                     );
                 }
@@ -1132,7 +1135,8 @@ option
         if(!$url){
             return false;
         }
-        $save_path = '/ssd/ople_data/data/item_tmp/'.$uid;
+        // $save_path = '/ssd/ople_data/data/item_tmp/'.$uid;
+        $save_path = '/ssd/opledata/data/item_tmp/'.$uid;
         $result = file_put_contents($save_path,file_get_contents($url));
 
         if($result === false){
@@ -1150,7 +1154,8 @@ option
 
     function image_resize($uid){
         $result_path_arr = array();
-        $path = '/ssd/ople_data/data/item_tmp';
+        // $path = '/ssd/ople_data/data/item_tmp';
+        $path = '/ssd/opledata/data/item_tmp';
         $img_path = $path.'/'.$uid;
         $resize_arr = array(
             's'=>'200',
@@ -1333,7 +1338,8 @@ option
             $data['it_id'] = '1510467315';
             foreach ($img_arr as $img_path) {
                 $upload_file_arr[] = array(
-                    'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                    // 'remote_path' => str_replace('/ssd/ople_data/data/item_tmp','/ssd/ople_data/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
+                    'remote_path' => str_replace('/ssd/opledata/data/item_tmp','/ssd/opledata/data/item_tmp',str_replace($uid . '_', $data['it_id'] . '_', $img_path)),
                     'local_path' => $img_path
                 );
             }

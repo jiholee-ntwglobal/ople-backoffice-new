@@ -678,6 +678,9 @@ html/qten/application/logs/**
 ople_data/data/**
 ople_data/*.sql
 !ople_data/data/
+opledata/data/**
+opledata/*.sql
+!opledata/data/
 html/api_sdks/
 html/florex/
 html/mall5/adm/html_block/**

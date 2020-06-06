@@ -282,7 +282,7 @@ include_once("$g4[admin_path]/admin.head.php");
         <?php foreach ($item_member_price_list as $value){ ?>
             <tr>
                 <td><a href="http://ople.com/mall5/shop/item.php?it_id=<?php echo $value['it_id'];?>"><?php echo $value['it_id'];?></a></td>
-                <td><img src="http://115.68.184.248/ople/item/<?php echo $value['it_id'];?>_l1" width="80" height="80"></td>
+                <td><img src="http://115.68.20.84/item/<?php echo $value['it_id'];?>_l1" width="80" height="80"></td>
                 <td><?php echo get_item_name($value['it_name'],'list');?></td>
                 <td class="text-right"><?php echo $value['it_amount_usd'];?></td>
                 <td class="text-right"><?php echo $value['member_price'];?></td>

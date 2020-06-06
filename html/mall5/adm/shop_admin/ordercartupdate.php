@@ -807,14 +807,11 @@ if($ct_status_etc == 0){
 	home_point_20200501_dc_cancel($od_id);
 
 	// 2020년 5월 가정의달 포인트 이벤트 60불이상 3000, 100불 이상 6000 포인트 적립 취소 : @home_20200501
-	home_point_20200501_cancel($od_id);
+    home_point_20200501_cancel($od_id);
     
     // 자로우 브랜드 제품 $35 이상 구매 시, 3천 포인트 적립 취소 : @jarrow_20200512
     // 기간 20200512 ~ 20200607
     jarrow_point_20200512_cancel($od_id);
-
-	//2020 05 25 7일간 메모리얼 기념 할인 이벤트 100불이상 5% 할인 취소
-	memorial_ev_202005_100_5usddc_cancel($od_id);
 }
 
 

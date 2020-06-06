@@ -1,6 +1,6 @@
 <?php
 /**
- * 개발용 SMS 발송 프로세스 
+ * 개발용 SMS 발송 프로세스
  */
 
 error_reporting(E_ALL);
@@ -77,8 +77,8 @@ function getAccessip() {
 function getGeclDeveloperHp() {
     $sendHp = array();
 
+    array_push($sendHp, '010-8910-4105'); // 조원석
     array_push($sendHp, '010-6511-1003'); // 최판일
-    array_push($sendHp, '010-3394-4321'); // 이성희
 
 
     return $sendHp;

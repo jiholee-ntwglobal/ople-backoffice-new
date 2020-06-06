@@ -12,10 +12,15 @@ echo "<span id='ct'></span>";
 include_once("./admin.tail.php");
 flush();
 
+// 2020-05-30 @jiho.lee: Temporary moved session directory
 $session_path = "$g4[path]/data/session";  // 세션이저장된 디렉토리 
 if (!$dir=@opendir($session_path)) { 
-  echo "세션 디렉토리를 열지못했습니다."; 
-} 
+    echo "세션 디렉토리를 열지못했습니다."; 
+}
+// $session_path = "/ssd/opledata/data/session";  // 세션이저장된 디렉토리 
+// if (!$dir=@opendir($session_path)) { 
+// 	echo "세션 디렉토리를 열지못했습니다."; 
+// }
 
 $cnt=0;
 while($file=readdir($dir)) { 

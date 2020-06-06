@@ -49,8 +49,9 @@ if($_POST['mode']== 'insert'){
                 }
                 upload_file($_FILES['is_image']['tmp_name'][$k], $file_name, $upload_dir);
 
+                // ftp_put($conn_id, "/ssd/ople_data/data/ituse/".$file_name, $upload_dir.'/'.$file_name, FTP_BINARY);
+                ftp_put($conn_id, $g4['path']."/data/ituse/".$file_name, $upload_dir.'/'.$file_name, FTP_BINARY);
 
-                ftp_put($conn_id, "/ssd/ople_data/data/ituse/".$file_name, $upload_dir.'/'.$file_name, FTP_BINARY);
                 $img_put .= " is_image{$k} = '$file_name', ";
                 $del_arr[] = $k;
             }
